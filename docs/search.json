@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Schematic of single-nucleus and spatially-resolved transcriptomics in postmortem human brains. Totty et al. Unpublished.\n\n\nThis work aims to unravel the complex molecular landscapes of the human brain through cutting-edge transcriptomic approaches. This work involves creating detailed maps of the human postmortem brain with single-cell and spatial resolution, offering an unprecedented view of the cellular architecture that underlies human cognition and behavior. By conducting cross-species comparisons that span rodents, non-human primates, and humans, this research will bridge the gap between animal models and human biology. Looking ahead, this foundation will pave the way for future investigations into how these molecular landscapes change in psychiatric disease. These efforts are poised to reveal new insights into the biological underpinnings of mental health and disease, ultimately guiding the development of more effective therapies.\nKey Publications:\n\nTotty MS#, Juanes R#, Bach S, Ameur L, Valentine M, Stocker M,Simons E, Tippani M, Rosario I, Kleinman J, Page S, Saunders A, Hyde T, Martinowich K, Hicks S, Costa V. “Transcriptomic diversity of basolateral amygdala cell types across humans and non-human primates.” forthcoming.\nTotty MS, Hicks S, Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "projects/index.html#the-history-of-the-war-of-the-ring",
+    "href": "projects/index.html#the-history-of-the-war-of-the-ring",
+    "title": "Projects",
+    "section": "The History of the War of the Ring",
+    "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "photography/index.html",
+    "href": "photography/index.html",
+    "title": "Photography",
+    "section": "",
+    "text": "As a wizard and scholar of Middle-earth, I have been studying the magic of the natural world for centuries. Through my self-portraits, I aim to capture the essence of my own being and reflect on my own journey through time. Each photograph is a reflection of my own experiences and emotions. Through my photography, I hope to offer a glimpse into my life as a scholar and adventurer, and inspire others to reflect on their own journeys through the world."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Totty",
+    "section": "",
+    "text": "Michael Totty\nI’m a computational and behavioral neuroscientist interested in reverse-translating neural circuit dysregulation in psychiatric disorders. My research approach leverages a two-pronged strategy of (1) identifying cell types and circuits that are impaired in postmortem human brains with psychiatric disease, and (2) determining the functional consequences of these cell type and circuit impairments in pre-clinical models. I am additionally interested in the development of novel computational methods and data resources towards the advancement of these goals.\n\nCurrently, I’m an NIMH F32 Kirschtein-NRSA Postdoctoral Fellow in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health, advised by Dr. Stephanie Hicks and co-advised by Dr. Keri Martinowich of the Lieber Institute for Brain Development. I previously received my PhD in Neuroscience under the mentorship of Dr. Stephen Maren at the Institute for Neuroscience at Texas A&M University in 2022, and a BS in Biomedical Engineering from the University of Tennessee in 2016."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitae",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "projects/index.html#publications",
+    "href": "projects/index.html#publications",
+    "title": "Michael S. Totty",
+    "section": "Publications",
+    "text": "Publications\n\n\nTotty MS, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” Nature Communications. DOI: 10.1038/s41467-023-42315-1.\n\n\n\nTotty MS and Maren S. “Neural oscillations in Aversively Motivated Behavior (2022).” Frontiers in Behavioral Neuroscience. DOI: 10.3389/fnbeh.2022.936036.\n\n\n\nBinette AN#, Totty MS#, Maren S (2022). “Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats.” PLoS One. DOI: 10.1371/journal.pone.0264797.\n\n\n\nLiu J#, Totty MS#, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” Biological Psychiatry. DOI: 10.1016/j.biopsych.2021.12.018.\n\n\n\nTotty MS, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” Scientific Reports. DOI: 10.1038/s41598-021-87559-3.\n\n\n\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\n\n\n\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4.\n\n\n\nTotty MS, Chesney LA, Geist PA, Datta S (2017). “Sleep-dependent oscillatory synchronization: a role in fear memory consolidation.” Frontiers in Neural Circuits. DOI: 10.3389/fncir.2017.00049.\n\n\n\nTotty MS and Wade E (2017). “Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living.” IEEE Transactions on Biomedical Engineering. DOI: 10.3389/fncir.2017.00049."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Texas A&M University | College Station, TX\nPhD in Neuroscience| Aug 2017 - June 2022\nUniversity of Tennessee | Knoxville, TN\nBS in Biomedical Engineering | Aug 2012 - May 2016"
+  },
+  {
+    "objectID": "projects/index.html#pre-prints",
+    "href": "projects/index.html#pre-prints",
+    "title": "Projects",
+    "section": "",
+    "text": "Online Publicationt | PDF"
+  },
+  {
+    "objectID": "index.html#education-and-training",
+    "href": "index.html#education-and-training",
+    "title": "Michael Totty",
+    "section": "",
+    "text": "Johns Hopkins University | Baltimore, MD\nPostdoctoral Fellow | Sept 2023 - Present\nLieber Institute for Brain Development | Baltimore, MD\nPostdoctoral Fellow | Sept 2022 - Aug 2023\nTexas A&M University | College Station, TX\nPhD in Neuroscience| Aug 2017 - June 2022\nUniversity of Tennessee | Knoxville, TN\nBS in Biomedical Engineering | Aug 2012 - May 2016"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Michael S. Totty",
+    "section": "",
+    "text": "My doctoral work with focused on understanding the neural circuits underlying fear regulation, with an emphasis on fear extinction mechanisms. My thesis work discovered a novel role for the thalamic nucleus reuniens in synchronizing the prefrontal cortex and hippocampus during fear suppression. I also characterized the context-dependent nature of panic-like behavior in rodents, and established that the amygdala is a long-terms storage site for fear memories."
+  },
+  {
+    "objectID": "research/index.html#research-themes",
+    "href": "research/index.html#research-themes",
+    "title": "Projects",
+    "section": "",
+    "text": "The role of neural oscillations in emotional learning and memory. Neural oscillations have long-been proposed to facilitate neural coding that is critical to a wide range of cognitive tasks, including aversive learning and memory. Sleep plays a critical role in learning and memory by consolidating new information, and many psychiatric disorders are often accompanied by sleep-disturbances. I began my career in neuroscience by investigating the role of oscillations in sleep-dependent memory consolidation. To explore this question, I recorded field potentials from several different limbic structures during sleep following fear conditioning and extinction and found that the phase difference between amygdala and ventral hippocampal theta oscillations during REM sleep following extinction learning are correlated to successful extinction recall (Totty et al. 2017). I then expanded these investigations to awake oscillations during my graduate studies (Totty and Maren, 2022). In my dissertation work, I show for the first that a small thalamic area (nucleus reuniens) plays a critical role in synchronizing the prefrontal cortex and hippocampus to mediate the retrieval of safe extinction memories (Totty et al. 2022). Collectively, these findings are critical to developing novel biomarkers and therapeutics to improve outcomes for memory-based disorders, such as PTSD.\n\nTotty MS, Chesney LA, Geist PA, Datta S (2017). Sleep-dependent oscillatory synchronization: a role in fear memory consolidation. Frontiers in Neural Circuits. doi: 0.3389/fncir.2017.00049\nTotty MS and Maren S (2022). Neural Oscillations in Aversive Learning and Memory. Frontiers in Neural Circuits. doi: 10.3389/fnbeh.2022.936036\nTotty MS, Ramanathan K, Jin J, Peters S, Maren S (2022). Oscillatory dynamics underlying the retrieval of fear extinction memories and the role of the thalamic nucleus reuniens. bioRxiv. doi: https://doi.org/10.1101/2022.11.11.516165\n\nLong-term storage of fear memories in the amygdala. In 2004, Greg Dale and Michael Fanselow showed that lesioning the basolateral amygdala (BLA) 24 hours after fear conditioning is sufficient to impair fear memory retention up to 16 months later. This was strong evidence that the BLA is a central site for long-term storage of fear memories. However, in 2014, Fabricio Do-Monte and Greg Quirk found that precise optogenetic inhibition of BLA principal neurons only impaired fear memory at recent (24 hours), but not remote (7 days) timepoints. This created substantial controversary in the field as it suggested the BLA may not be a long-term site of fear memory storage. To address this question, I recorded from single neurons in the BLA during the retrieval of a recent or remotely encoded fear memory and found that the BLA responds equally to both. We additionally found that ontogenetically inhibiting BLA responses evoked by either a recent or remote CS is sufficient to impair fear memory (Liu*, Totty*, et al. 2022). Collectively, this work used a wide range of techniques to definitively conclude that the BLA is indeed a site of long-term fear memory storage.\n\nLiu J*, Totty MS*, Melissari L, Bayer H, Maren S (2022). Convergent coding of recent and remote fear memory in the basolateral amygdala. Biological Psychiatry. doi: 10.1016/j.biopsych.2021.12.018 * co-first author\n\nNature and cause of the immediate extinction deficit. Extinction learning is the basis of commonly used cognitive-behavioral therapies for reducing pathological fear in patients. However, extinction learning that occurs immediately (~15 min) after fear conditioning fails to result in a long-term suppression of fear in rats; a phenomenon known as the immediate extinction deficit (IED). This phenomenon has high clinical relevance as early intervention strategies are ineffective at preventing the development of stress and trauma-related disorders. During my graduate studies, I investigated the nature and cause of the immediate extinction deficit, as well as potential sex differences. In brief, I showed that the IED in rodents is not due to event segmentation as hypothesized by work in humans (Totty et al. 2019), but rather is a stress-induced impairment driven by locus coeruleus norepinephrine that acts to hyperexcite the BLA, and in-turn, impair extinction encoding (Giustino et al 2020). Additionally, I found that both male and female rats are equally susceptible to the IED despite well-documented sex differences in stress- and trauma-related disorders (Binette*, Totty*, et al. 2022).\n\nTotty MS, Payne M, Maren S (2019). Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats. Scientific Reports. doi: 10.1038/s41598-019-46010-4\nGiustino TF, Ramanathan KR, Totty MS, Miles O, and Maren S (2020). Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning. Journal of Neuroscience. doi: 10.1523/JNEUROSCI.1092-19.2019\nBinette AN*, Totty MS*, and Maren S (2022). Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats. PLOS ONE. doi: 10.1371/journal.pone.0264797 * co-first author\n\nContextual mechanisms gating panic-like behavior in rats. Contextual cues guide defensive selection in all animals, and a continuum of defensive behaviors exists that allow animals to maximize their chance of survival in various situations. However, most of the work investigating defensive behaviors thus far has been limited to a single behavior – fear related immobility (i.e., freezing behavior). To address this, I used a modified Pavlovian conditioning procedure leveraging a serial-compound stimuli (a pure tone followed by white noise) that elicits both freezing and flight-like behavior, respectively, in rodents. I show that panic-like flight behavior driven by a SCS is specific to white noise regardless of temporal order, can only be elicited in contexts previously paired with footshock, depends on learned associations, and is dependent upon both the central amygdala and bed nucleus of the stria terminalis (Totty et al. 2021). Collectively, this work demonstrates that contextual fear can summate with cued and innate (auditory) fear to drive a high fear state and switch from post-encounter (i.e., freezing) to circa-strike (i.e., flight) defensive modes.\n\nTotty MS, Warren N, Huddleston I, Ramanathan K, Ressler R, Oleksiak C, and Maren S (2021). Behavioral and Brain mechanisms mediating conditioned flight behavior in rats. Scientific Reports. doi: 10.1038/s41598-021-87559-3\n\nAutomated functional assessment of upper limb activity in the home setting. Individuals with acquired injuries, neuromotor deficits, and aging adults often struggle to maintain functional independence due to decreased ability to perform activities of daily living (ADLs). Accurate assessment of functional abilities is necessary to provide adequate treatment and improve clinical outcomes. Previous work has sought to automate functional assessment of individuals in the home setting using body-worn sensors to avoid biased self-report measures. However, these measures are normally restricted by assessing only specific, predefined tasks. Therefore, during my undergraduate research position, I used supervised machine learning classification with upper extremity accelerometer and electromyogram data to develop a novel method for classifying a wide range of ADLs into a functional hierarchy of behavioral significance (Totty and Wade, 2018). This study proved the feasibility of using an off-the-market product, as well multimodal sensing, to accurately classify ADLs.\n\nTotty MS and Wade E (2018). Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living. IEEE Transactions on Biomedical Engineering. doi: 10.1109/tbme.2017.2738440"
+  },
+  {
+    "objectID": "research/index.html#publications",
+    "href": "research/index.html#publications",
+    "title": "Michael S. Totty",
+    "section": "Publications",
+    "text": "Publications\n\n\nTotty MS, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” Nature Communications. DOI: 10.1038/s41467-023-42315-1.\n\n\n\nTotty MS and Maren S. “Neural oscillations in Aversively Motivated Behavior (2022).” Frontiers in Behavioral Neuroscience. DOI: 10.3389/fnbeh.2022.936036.\n\n\n\nBinette AN#, Totty MS#, Maren S (2022). “Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats.” PLoS One. DOI: 10.1371/journal.pone.0264797.\n\n\n\nLiu J#, Totty MS#, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” Biological Psychiatry. DOI: 10.1016/j.biopsych.2021.12.018.\n\n\n\nTotty MS, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” Scientific Reports. DOI: 10.1038/s41598-021-87559-3.\n\n\n\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\n\n\n\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4.\n\n\n\nTotty MS, Chesney LA, Geist PA, Datta S (2017). “Sleep-dependent oscillatory synchronization: a role in fear memory consolidation.” Frontiers in Neural Circuits. DOI: 10.3389/fncir.2017.00049.\n\n\n\nTotty MS and Wade E (2017). “Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living.” IEEE Transactions on Biomedical Engineering. DOI: 10.3389/fncir.2017.00049."
+  },
+  {
+    "objectID": "research/index.html#preprinted-research-articles",
+    "href": "research/index.html#preprinted-research-articles",
+    "title": "Michael Totty, Ph.D",
+    "section": "",
+    "text": "Totty MS, Hicks S, and Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "research/index.html#published-research-articles",
+    "href": "research/index.html#published-research-articles",
+    "title": "Michael Totty, Ph.D",
+    "section": "Published Research Articles",
+    "text": "Published Research Articles\n\n\nTotty MS, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” Nature Communications. DOI: 10.1038/s41467-023-42315-1.\n\n\n\n\nTotty MS and Maren S. “Neural oscillations in Aversively Motivated Behavior (2022).” Frontiers in Behavioral Neuroscience. DOI: 10.3389/fnbeh.2022.936036.\n\n\n\n\nBinette AN#, Totty MS#, Maren S (2022). “Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats.” PLoS One. DOI: 10.1371/journal.pone.0264797.\n\n\n\n\nLiu J#, Totty MS#, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” Biological Psychiatry. DOI: 10.1016/j.biopsych.2021.12.018.\n\n\n\n\nTotty MS, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” Scientific Reports. DOI: 10.1038/s41598-021-87559-3.\n\n\n\n\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\n\n\n\n\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4.\n\n\n\n\nTotty MS, Chesney LA, Geist PA, Datta S (2017). “Sleep-dependent oscillatory synchronization: a role in fear memory consolidation.” Frontiers in Neural Circuits. DOI: 10.3389/fncir.2017.00049.\n\n\n\n\nTotty MS and Wade E (2017). “Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living.” IEEE Transactions on Biomedical Engineering. DOI: 10.3389/fncir.2017.00049."
+  },
+  {
+    "objectID": "research/index.html#preprints",
+    "href": "research/index.html#preprints",
+    "title": "Michael S. Totty",
+    "section": "Preprints",
+    "text": "Preprints\n\n\nTotty MS, Hicks S, and Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "software/index.html",
+    "href": "software/index.html",
+    "title": "Software",
+    "section": "",
+    "text": "SpotSweeper\n\n\n\nBioconductor\n\n\nR\n\n\n\nSpatially-aware quality control for spatial transcriptomics.\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrozenPy\n\n\n\nPython\n\n\n\nA Python package for quantifying freezing behavior in rodents.\n\n\n\n\n\n\n\n\n\n\nFiberFlow\n\n\n\nPython\n\n\nStreamlit\n\n\n\nA Streamlit app for analyzing fiber photometry data.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "software/index.html#multiscale-integration-across-heterogeneous-population",
+    "href": "software/index.html#multiscale-integration-across-heterogeneous-population",
+    "title": "Projects",
+    "section": "",
+    "text": "Domain: Statistics, Comp. Science, Neurobiology, Comp. Vision, Epidemiology\nExpertise: Method Dev., Programming, Experiment Tech., Image Analysis, Study Design\nMy research concentrates on developing statistically rigorous and computationally scalable machine-learning methods, as well as open-source software, that integrates population-scale multi-omics data to uncover functional mechanisms that explain disease heterogeneity."
+  },
+  {
+    "objectID": "software/index.html#scalable-machine-learning-models-for-precision-medicine",
+    "href": "software/index.html#scalable-machine-learning-models-for-precision-medicine",
+    "title": "Projects",
+    "section": "Scalable machine learning models for precision medicine",
+    "text": "Scalable machine learning models for precision medicine\nHeterogeneity in treatment response and disease progression requires individualized health care informed by data-driven evidence. Deeply embedded in biomedical data, the key to successful precision medicine requires timely advances in statistically sound machine learning models and AI tools that extract insights from the complex and high-dimensional biomedical data.\n\nVariable and functional selection using spike-and-slab LASSO\nI develop Bayesian statistical learning methods and scalable algorithms for high-dimensional data analysis, with the application to biomedical data that includes, but not limited to, population-scale biological studies.\n\n\n\nModel"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Totty MS, Hicks S, and Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "publications/index.html#preprints",
+    "href": "publications/index.html#preprints",
+    "title": "Publications",
+    "section": "",
+    "text": "Totty MS, Hicks S, and Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "publications/index.html#publications",
+    "href": "publications/index.html#publications",
+    "title": "Publications",
+    "section": "Publications",
+    "text": "Publications\n\n2023\n\n\nTotty MS, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” Nature Communications. DOI: 10.1038/s41467-023-42315-1.\n\n\n\n\n2022\n\nTotty MS and Maren S. “Neural oscillations in Aversively Motivated Behavior (2022).” Frontiers in Behavioral Neuroscience. DOI: 10.3389/fnbeh.2022.936036.\n\n\n\nBinette AN#, Totty MS#, Maren S (2022). “Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats.” PLoS One. DOI: 10.1371/journal.pone.0264797.\n\n\n\nLiu J#, Totty MS#, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” Biological Psychiatry. DOI: 10.1016/j.biopsych.2021.12.018.\n\n\n\n\n2021\n\nTotty MS, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” Scientific Reports. DOI: 10.1038/s41598-021-87559-3.\n\n\n\n\n2020\n\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\n\n\n\n\n2019\n\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4.\n\n\n\n\n2017\n\nTotty MS, Chesney LA, Geist PA, Datta S (2017). “Sleep-dependent oscillatory synchronization: a role in fear memory consolidation.” Frontiers in Neural Circuits. DOI: 10.3389/fncir.2017.00049.\n\n\n\nTotty MS and Wade E (2017). “Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living.” IEEE Transactions on Biomedical Engineering. DOI: 10.3389/fncir.2017.00049."
+  },
+  {
+    "objectID": "projects/index.html#preprints",
+    "href": "projects/index.html#preprints",
+    "title": "Michael S. Totty",
+    "section": "Preprints",
+    "text": "Preprints\n\n\nTotty MS, Hicks S, and Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "publications/index.html#published",
+    "href": "publications/index.html#published",
+    "title": "Publications",
+    "section": "Published",
+    "text": "Published\n\n\nTotty MS, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” Nature Communications. DOI: 10.1038/s41467-023-42315-1.\n\n\n\nTotty MS and Maren S. “Neural oscillations in Aversively Motivated Behavior (2022).” Frontiers in Behavioral Neuroscience. DOI: 10.3389/fnbeh.2022.936036.\n\n\n\nBinette AN#, Totty MS#, Maren S (2022). “Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats.” PLoS One. DOI: 10.1371/journal.pone.0264797.\n\n\n\nLiu J#, Totty MS#, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” Biological Psychiatry. DOI: 10.1016/j.biopsych.2021.12.018.\n\n\n\nTotty MS, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” Scientific Reports. DOI: 10.1038/s41598-021-87559-3.\n\n\n\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\n\n\n\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4.\n\n\n\nTotty MS, Chesney LA, Geist PA, Datta S (2017). “Sleep-dependent oscillatory synchronization: a role in fear memory consolidation.” Frontiers in Neural Circuits. DOI: 10.3389/fncir.2017.00049.\n\n\n\nTotty MS and Wade E (2017). “Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living.” IEEE Transactions on Biomedical Engineering. DOI: 10.1109/TBME.2017.2738440."
+  },
+  {
+    "objectID": "projects/index.html#single-cell-and-spatial-transcriptomic-brain-mapping-across-species",
+    "href": "projects/index.html#single-cell-and-spatial-transcriptomic-brain-mapping-across-species",
+    "title": "Projects",
+    "section": "",
+    "text": "Schematic of single-nucleus and spatially-resolved transcriptomics in postmortem human brains. Totty et al. Unpublished.\n\n\nThis work aims to unravel the complex molecular landscapes of the human brain through cutting-edge transcriptomic approaches. This work involves creating detailed maps of the human postmortem brain with single-cell and spatial resolution, offering an unprecedented view of the cellular architecture that underlies human cognition and behavior. By conducting cross-species comparisons that span rodents, non-human primates, and humans, this research will bridge the gap between animal models and human biology. Looking ahead, this foundation will pave the way for future investigations into how these molecular landscapes change in psychiatric disease. These efforts are poised to reveal new insights into the biological underpinnings of mental health and disease, ultimately guiding the development of more effective therapies.\nKey Publications:\n\nTotty MS#, Juanes R#, Bach S, Ameur L, Valentine M, Stocker M,Simons E, Tippani M, Rosario I, Kleinman J, Page S, Saunders A, Hyde T, Martinowich K, Hicks S, Costa V. “Transcriptomic diversity of basolateral amygdala cell types across humans and non-human primates.” forthcoming.\nTotty MS, Hicks S, Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” bioRxiv. DOI: 10.1101/2024.06.06.597765."
+  },
+  {
+    "objectID": "projects/index.html#neural-circuits-and-mechanisms-of-fear-extinction",
+    "href": "projects/index.html#neural-circuits-and-mechanisms-of-fear-extinction",
+    "title": "Projects",
+    "section": "Neural Circuits and Mechanisms of Fear Extinction",
+    "text": "Neural Circuits and Mechanisms of Fear Extinction\n\n\n\nPavlovian conditioning, extinction, and renewal (A) are powerful behavior models for studying the neural mechanisms underlying fear relapse. Our previous work found that optogenetic stimulation of the thalamic Nucleus Reuniens (B) is sufficient to block fear relapse in rats (C). Totty et al. Nat Comm. (2023)\n\n\nFear extinction is an inhibitory learning process by which humans and rodents alike learn to suppress fear to previously threatening stimuli. My research investigates the neural circuits that mediate this fundamental process. Using sophisticated techniques such as in vivo electrophysiology and optogenetics, my previous work discovered that the thalamic nucleus reuniens plays a critical role in synchronizing prefrontal and hippocampal theta oscillations, which ultimately acts to suppress fearful memories. This work is crucial for understanding the basic brain mechanism mediating fear suppression and has implications for treating anxiety disorders like PTSD.\nKey Publications:\n\nTotty MS, Tuna T, Ramanathan K, Jin J, Peters S, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” Nature Communications. DOI: 10.1038/s41467-023-42315-1.\nLiu J#, Totty MS#, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” Biological Psychiatry. DOI: 10.1016/j.biopsych.2021.12.018."
+  },
+  {
+    "objectID": "projects/index.html#preclinical-models-relevant-for-psychiatric-disease",
+    "href": "projects/index.html#preclinical-models-relevant-for-psychiatric-disease",
+    "title": "Projects",
+    "section": "Preclinical Models Relevant for Psychiatric Disease",
+    "text": "Preclinical Models Relevant for Psychiatric Disease\nDeveloping and validating preclinical models is essential for advancing our understanding of psychiatric diseases. My work involves using rodent models to investigate the underlying neural mechanisms of conditions like PTSD, anxiety, and depression. By focusing on the amygdala and related brain regions, I aim to mimic the pathological conditions seen in human psychiatric disorders. These models are critical for testing new therapeutic interventions and understanding the long-term effects of stress and other factors on mental health.\nKey Publications:\n\nTotty MS#, Warren N, Huddleston I#, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” Scientific Reports. DOI: 10.1038/s41598-021-87559-3.\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4."
+  },
+  {
+    "objectID": "projects/index.html#behavioral-models-relevant-for-psychiatric-disease",
+    "href": "projects/index.html#behavioral-models-relevant-for-psychiatric-disease",
+    "title": "Projects",
+    "section": "Behavioral Models Relevant for Psychiatric Disease",
+    "text": "Behavioral Models Relevant for Psychiatric Disease\n\n\n\nNorepinephrine (NE) released from the locus ceoruleous (LC) drives stress-induced extinction impairs via basolateral amygdala (BLA) hyperexcitability. Giustino et al. J Neuro. (2020)\n\n\nUncovering how core mechanisms of fear extinction is impacted due to stress is essential for advancing our understanding of psychiatric diseases. To do this, we investigate the stres and stress-related neurotransmitters, such as norepinphrine, impact neural circuitry critical to fear regulation. By focusing on the amygdala and related brain regions, I aim to mimic the pathological conditions seen in human psychiatric disorders, such as PTSD and generalized anxiety disorders. These models are critical for testing new therapeutic interventions and understanding the long-term effects of stress and other factors on mental health.\nKey Publications:\n\nGiustino TF, Ramanathan KR, Totty MS, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” Journal of Neuroscience. DOI: 10.1523/JNEUROSCI.1092-19.2019.\nTotty MS, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” Scientific Reports. DOI: 10.1038/s41598-019-46010-4."
+  }
+]
