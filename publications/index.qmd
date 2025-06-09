@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Manuscripts and Publications"
 format:
   html:
     toc: true
@@ -9,10 +9,16 @@ format:
 ## Preprints
 
 <ol reversed>
+    
+  <li>Miranda-Barrientos J, Adirahu S, Rehg J, **Totty MS**, Hallock H, Li Y, Carr G, and Martinowich K. (2025). <ins>Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test</ins>. (_under review_).</li><br>
+      
+  <li>Mourao F, **Totty MS**, Tuna T, and Maren S. (2025). <ins>Hippocampal-prelimbic coupling during context-dependent exintction retrieval in rats.</ins>. _bioRxiv_ [DOI: 10.1101/2025.05.03.652056](https://www.biorxiv.org/content/10.1101/2025.05.03.652056v1.abstract).</li><br>
 
-  <li>**Totty MS^#^**,  Cervera-Juanes#, R., Bach, S.V.#, Ben Ameur, L., Valentine, M.R., Simons, E., Romac, M.D., Trinh, H., Henderson, K., Del Rosario, I., et al. "Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates." _bioRxiv._ [DOI: 10.1101/2024.10.18.618721](https://www.biorxiv.org/content/10.1101/2024.10.18.618721v1).</li><br>
+  <li>Tucker A, Eisdorfer JT,  Thackray J, Vo K, Thomas H, Tandon A, Moses J, Singletary B, Gillespie T, Smith A, Pauken A, Nadella S, Pitonak M, Letchuman S, Jang J,  **Totty MS**,  Jalufka FL,  Aceves M,  Adler AF,  Maren S,  Blackmon H,  McCreedy DA,  Abraira V,  Dulin J (2025). <ins>Functional synaptic connectivity of engrafted spinal cord neurons with locomotor circuitry in the injured spinal cord</ins>. _bioRxiv_ [DOI: 10.1101/2025.04.05.644402](https://www.biorxiv.org/content/10.1101/2025.04.05.644402v1).</li><br>
 
-  <li>**Totty MS**, Hicks S, and Guo B (2024). “SpotSweeper: spatially-aware quality control for spatial transcriptomics.” _bioRxiv._ [DOI: 10.1101/2024.06.06.597765](https://www.biorxiv.org/content/10.1101/2024.06.06.597765v1).</li><br>
+  <li>Tuna T^#^, **Totty MS^#^**, Badarnee M, Mourao M, Peters S, Milad M (2025). <ins>Associative coding of conditioned fear in the thalamic reuniens in rodents and humans</ins>. _bioRxiv_ [DOI: 10.1101/2025.03.18.643915](https://www.biorxiv.org/content/10.1101/2025.03.18.643915v1.abstract).</li><br>
+
+  <li>**Totty MS^#^**,  Cervera-Juanes#, R., Bach, S.V.#, Ben Ameur, L., Valentine, M.R., Simons, E., Romac, M.D., Trinh, H., Henderson, K., Del Rosario, I., et al. <ins>Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates</ins>. _bioRxiv._ [DOI: 10.1101/2024.10.18.618721](https://www.biorxiv.org/content/10.1101/2024.10.18.618721v1).</li><br>
 </ol>
 
 
@@ -20,17 +26,21 @@ format:
 
 ## Published
 
-<ol reversed start="9">
-  <li>**Totty MS**, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” _Nature Communications._ [DOI: 10.1038/s41467-023-42315-1](https://www.nature.com/articles/s41467-023-42315-1).</li><br>
+<ol reversed start="10">
 
-  <li>**Totty MS** and Maren S. “Neural oscillations in Aversively Motivated Behavior (2022).” _Frontiers in Behavioral Neuroscience._ [DOI: 10.3389/fnbeh.2022.936036](https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.936036/full).</li><br>
-  <li>Binette AN#, **Totty MS#**, Maren S (2022). “Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats.” _PLoS One._ [DOI: 10.1371/journal.pone.0264797](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264797).</li><br>
-  <li>Liu J#, **Totty MS#**, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” _Biological Psychiatry._ [DOI: 10.1016/j.biopsych.2021.12.018](https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)00023-3/fulltext).</li><br>
-  <li>**Totty MS**, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” _Scientific Reports._ [DOI: 10.1038/s41598-021-87559-3](https://www.nature.com/articles/s41598-021-87559-3).</li><br>
-  <li>Giustino TF, Ramanathan KR, **Totty MS**, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” _Journal of Neuroscience._ [DOI: 10.1523/JNEUROSCI.1092-19.2019](https://www.jneurosci.org/content/40/4/907).</li><br>
-  <li>**Totty MS**, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” _Scientific Reports._ [DOI: 10.1038/s41598-019-46010-4](https://www.nature.com/articles/s41598-019-46010-4).</li><br>
-  <li>**Totty MS**, Chesney LA, Geist PA, Datta S (2017). “Sleep-dependent oscillatory synchronization: a role in fear memory consolidation.” _Frontiers in Neural Circuits._ [DOI: 10.3389/fncir.2017.00049](https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2017.00049/full).</li><br>
-  <li>**Totty MS** and Wade E (2017). “Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living.” _IEEE Transactions on Biomedical Engineering._ [DOI: 10.1109/TBME.2017.2738440](https://ieeexplore.ieee.org/abstract/document/8007300/).</li><br>
+  <li>**Totty MS**, Hicks S, and Guo B (2025). <ins>SpotSweeper: spatially-aware quality control for spatial transcriptomics</ins>. _Nature Methods._ [DOI: 10.1038/s41592-025-02713-3](https://www.nature.com/articles/s41592-025-02713-3).</li><br>
+
+  <li>Liu J, **Totty MS** , Bayer H, Maren S (2025). <ins>Integrating aversive memories in the basolateral amygdala</ins>. _Biological Psychiatry._ [DOI: 10.1016/j.biopsych.2025.03.019](https://www.sciencedirect.com/science/article/pii/S0006322325011072).</li><br>
+  <li>**Totty MS**, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). <ins>Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear</ins>. _Nature Communications._ [DOI: 10.1038/s41467-023-42315-1](https://www.nature.com/articles/s41467-023-42315-1).</li><br>
+
+  <li>**Totty MS** and Maren S (2022). <ins>Neural oscillations in Aversively Motivated Behavior</ins>. _Frontiers in Behavioral Neuroscience._ [DOI: 10.3389/fnbeh.2022.936036](https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.936036/full).</li><br>
+  <li>Binette AN#, **Totty MS#**, Maren S (2022). <ins>Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats</ins>. _PLOS One._ [DOI: 10.1371/journal.pone.0264797](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264797).</li><br>
+  <li>Liu J#, **Totty MS#**, Melissari L, Bayer H, Maren S (2022). <ins>Convergent coding of recent and remote fear memory in the basolateral amygdala</ins>. _Biological Psychiatry._ [DOI: 10.1016/j.biopsych.2021.12.018](https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)00023-3/fulltext).</li><br>
+  <li>**Totty MS**, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). <ins>Behavioral and brain mechanisms mediating conditioned flight behavior in rats</ins>. _Scientific Reports._ [DOI: 10.1038/s41598-021-87559-3](https://www.nature.com/articles/s41598-021-87559-3).</li><br>
+  <li>Giustino TF, Ramanathan KR, **Totty MS**, Miles OM, and Maren S (2020). <ins>Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning</ins>. _Journal of Neuroscience._ [DOI: 10.1523/JNEUROSCI.1092-19.2019](https://www.jneurosci.org/content/40/4/907).</li><br>
+  <li>**Totty MS**, Payne M, Maren S (2019). <ins>Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats</ins>. _Scientific Reports._ [DOI: 10.1038/s41598-019-46010-4](https://www.nature.com/articles/s41598-019-46010-4).</li><br>
+  <li>**Totty MS**, Chesney LA, Geist PA, Datta S (2017). <ins>Sleep-dependent oscillatory synchronization: a role in fear memory consolidation</ins>. _Frontiers in Neural Circuits._ [DOI: 10.3389/fncir.2017.00049](https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2017.00049/full).</li><br>
+  <li>**Totty MS** and Wade E (2017). <ins>Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living</ins>. _IEEE Transactions on Biomedical Engineering._ [DOI: 10.1109/TBME.2017.2738440](https://ieeexplore.ieee.org/abstract/document/8007300/).</li><br>
 
 </ol>
 

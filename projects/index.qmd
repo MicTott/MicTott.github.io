@@ -26,6 +26,7 @@ Fear extinction is an inhibitory learning process by which humans and rodents al
 
 Key Publications:
 
+- Tuna T^#^, **Totty MS^#^**, Badarnee M, Mourao M, Peters S, Milad M (2025). "Associative coding of conditioned fear in the thalamic reuniens in rodents and humans." _bioRxiv_ [DOI: 10.1101/2025.03.18.643915](https://www.biorxiv.org/content/10.1101/2025.03.18.643915v1.abstract)
 - **Totty MS**, Tuna T, Ramanathan K, Jin J, Peters S, and Maren S (2023). “Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear.” _Nature Communications._ [DOI: 10.1038/s41467-023-42315-1](https://www.nature.com/articles/s41467-023-42315-1).
 - Liu J^#^, **Totty MS^#^**, Melissari L, Bayer H, Maren S (2022). “Convergent coding of recent and remote fear memory in the basolateral amygdala.” _Biological Psychiatry._ [DOI: 10.1016/j.biopsych.2021.12.018](https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)00023-3/fulltext).
 
@@ -39,6 +40,7 @@ Uncovering how core mechanisms of fear extinction is impacted due to stress is e
 
 Key Publications:
 
+- **Totty MS**, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). “Behavioral and brain mechanisms mediating conditioned flight behavior in rats.” _Scientific Reports._ [DOI: 10.1038/s41598-021-87559-3](https://www.nature.com/articles/s41598-021-87559-3).
 - Giustino TF, Ramanathan KR, **Totty MS**, Miles OM, and Maren S (2020). “Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning.” _Journal of Neuroscience._ [DOI: 10.1523/JNEUROSCI.1092-19.2019](https://www.jneurosci.org/content/40/4/907).
 - **Totty MS**, Payne M, Maren S (2019). “Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats.” _Scientific Reports._ [DOI: 10.1038/s41598-019-46010-4](https://www.nature.com/articles/s41598-019-46010-4).
 
