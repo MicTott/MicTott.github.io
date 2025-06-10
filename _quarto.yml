@@ -7,7 +7,7 @@ website:
   image: img/my_image.jpg
   site-url: https://MicTott.github.io/
   
-  
+   
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
