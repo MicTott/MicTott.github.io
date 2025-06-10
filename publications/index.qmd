@@ -6,7 +6,7 @@ format:
 ---
 
 
-## Preprints
+## Manuscripts and Preprints
 
 <ol reversed>
     
@@ -26,7 +26,7 @@ format:
 
 ## Published
 
-<ol reversed start="10">
+<ol reversed>
 
   <li>**Totty MS**, Hicks S, and Guo B (2025). <ins>SpotSweeper: spatially-aware quality control for spatial transcriptomics</ins>. _Nature Methods._ [DOI: 10.1038/s41592-025-02713-3](https://www.nature.com/articles/s41592-025-02713-3).</li><br>
 
