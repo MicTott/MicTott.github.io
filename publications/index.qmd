@@ -9,8 +9,10 @@ format:
 ## Manuscripts and Preprints
 
 <ol reversed>
+
+  <li>Goode TD,  Bernstein M, **Totty MS**, Alipio JB, Vicidomini C, Pathak D, Besnard A, Chizari D, Sachdev N, Kritzer M, Chung A, Duan X, Macosko E, Hicks SC, Zweifel L, Sahay A. <ins>A dorsal hippocampus-prodynorphinergic dorsolateral septum-to-lateral hypothalamus circuit mediates contextual gating of feeding.</ins>  (_under revision_).</li><br>
     
-  <li>Miranda-Barrientos J, Adirahu S, Rehg J, **Totty MS**, Hallock H, Li Y, Carr G, and Martinowich K. (2025). <ins>Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test</ins>. (_under review_).</li><br>
+  <li>Miranda-Barrientos J, Adirahu S, Rehg J, **Totty MS**, Hallock H, Li Y, Carr G, and Martinowich K. (2025). <ins>Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test</ins>. (_under revision_).</li><br>
       
   <li>Mourao F, **Totty MS**, Tuna T, and Maren S. (2025). <ins>Hippocampal-prelimbic coupling during context-dependent exintction retrieval in rats.</ins>. _bioRxiv_ [DOI: 10.1101/2025.05.03.652056](https://www.biorxiv.org/content/10.1101/2025.05.03.652056v1.abstract).</li><br>
 
@@ -18,7 +20,6 @@ format:
 
   <li>Tuna T^#^, **Totty MS^#^**, Badarnee M, Mourao M, Peters S, Milad M (2025). <ins>Associative coding of conditioned fear in the thalamic reuniens in rodents and humans</ins>. _bioRxiv_ [DOI: 10.1101/2025.03.18.643915](https://www.biorxiv.org/content/10.1101/2025.03.18.643915v1.abstract).</li><br>
 
-  <li>**Totty MS^#^**,  Cervera-Juanes#, R., Bach, S.V.#, Ben Ameur, L., Valentine, M.R., Simons, E., Romac, M.D., Trinh, H., Henderson, K., Del Rosario, I., et al. <ins>Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates</ins>. _bioRxiv._ [DOI: 10.1101/2024.10.18.618721](https://www.biorxiv.org/content/10.1101/2024.10.18.618721v1).</li><br>
 </ol>
 
 
@@ -27,6 +28,8 @@ format:
 ## Published
 
 <ol reversed>
+
+  <li>**Totty MS^#^**,  Cervera-Juanes#, R., Bach, S.V.#, Ben Ameur, L., Valentine, M.R., Simons, E., Romac, M.D., Trinh, H., Henderson, K., Del Rosario, I., et al. <ins>Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates</ins>. _Science Advances._ [DOI: 10.1101/2025.07.14.664821](https://www.biorxiv.org/content/10.1101/2025.07.14.664821v1).</li><br>
 
   <li>**Totty MS**, Hicks S, and Guo B (2025). <ins>SpotSweeper: spatially-aware quality control for spatial transcriptomics</ins>. _Nature Methods._ [DOI: 10.1038/s41592-025-02713-3](https://www.nature.com/articles/s41592-025-02713-3).</li><br>
 
