@@ -26,7 +26,7 @@ about:
 
 <div style="max-width: 120%; margin: 0 auto;">
 # Michael Totty
-I am a postdoctoral neuroscientist working at the intersection of molecular, computational, and systems neuroscience. My research combines transcriptomic profiling of the human brain with circuit-level studies in preclinical models to uncover how cell types and neural pathways are altered in psychiatric disease. This two-part strategy links the **identification of vulnerable cell types and circuits in postmortem human brains** with **experimental dissection of their functional roles in vivo**. In parallel, I develop new computational tools and data resources to accelerate discovery and advance our understanding of the neural circuits that underlie psychiatric disorders across species.
+I am a postdoctoral neuroscientist working at the intersection of molecular, computational, and systems neuroscience. My research combines transcriptomic profiling of the human brain with circuit-level studies in preclinical models to uncover how cell types and neural pathways are altered in psychiatric disease. This two-part strategy links the identification of vulnerable cell types and circuits in postmortem human brains with experimental dissection of their functional roles in vivo. In parallel, I develop novel computational tools and data resources to accelerate discovery and advance our understanding of the neural circuits that underlie psychiatric disorders across species.
 </div>
 
 

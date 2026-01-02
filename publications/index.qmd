@@ -10,16 +10,15 @@ format:
 
 <ol reversed>
 
-  <li>Goode TD,  Bernstein M, **Totty MS**, Alipio JB, Vicidomini C, Pathak D, Besnard A, Chizari D, Sachdev N, Kritzer M, Chung A, Duan X, Macosko E, Hicks SC, Zweifel L, Sahay A. <ins>A dorsal hippocampus-prodynorphinergic dorsolateral septum-to-lateral hypothalamus circuit mediates contextual gating of feeding.</ins>  (_under revision_).</li><br>
+  <li>Crowell HL, Dong Y, Billato I, Cai P, Emons M, Gunz S, Guo B, Li M, Mahmoud A, Manukyan A, Pagès H, Panwar P, Rao S, Sargeant CJ, Kern LS, Ramos M, Sun J, **Totty MS**, Carey VJ, Chen Y, Collado-Torres L, Ghazanfar S, Hansen KD, Martinowich K, Maynard KR, Patrick E, Righelli D, Risso D, Tiberi S, Waldron L, Gottardo R, Robinson MD, Hicks SC, Weber LM. <ins>Orchestrating Spatial Transcriptomics Analysis with Bioconductor.</ins>  _bioRxiv._ [DOI: 10.1101/2025.11.20.688607](https://www.biorxiv.org/content/10.1101/2025.11.20.688607v1.abstract).</li><br>
+
+  <li>Goode TD,  Bernstein M, **Totty MS**, Alipio JB, Vicidomini C, Pathak D, Besnard A, Chizari D, Sachdev N, Kritzer M, Chung A, Duan X, Macosko E, Hicks SC, Zweifel L, Sahay A. <ins>A dorsal hippocampus-prodynorphinergic dorsolateral septum-to-lateral hypothalamus circuit mediates contextual gating of feeding.</ins>  _bioRxiv._ [DOI: 10.1101/2024.08.02.606427](https://www.biorxiv.org/content/10.1101/2024.08.02.606427v1).</li><br>
   
-  <li>Shah K, **Totty MS**, Bach SV, Valentine M, Chandra A, Divecha HR, Miller R, Kwon SH, Ramnauth A, Tippani M, Tyagi S, Kleinman JE, Collado-Torres L, Han S, Hyde TM, Page SC, Maynard KR, Hicks SC, Martinowich K. <ins>Spatio-molecular gene expression reflects dorsal anterior cingulate cortex structure and function in the human brain</ins>.  _bioRxiv_. [DOI: 10.1101/2025.07.14.664821](https://www.biorxiv.org/content/10.1101/2025.07.14.664821v1).</li><br>
-    
-  <li>Miranda-Barrientos J, Adirahu S, Rehg J, **Totty MS**, Hallock H, Li Y, Carr G, and Martinowich K. (2025). <ins>Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test</ins>. (_under revision_).</li><br>
-      
-  <li>Mourao F, **Totty MS**, Tuna T, and Maren S. (2025). <ins>Hippocampal-prelimbic coupling during context-dependent exintction retrieval in rats.</ins>. _bioRxiv_ [DOI: 10.1101/2025.05.03.652056](https://www.biorxiv.org/content/10.1101/2025.05.03.652056v1.abstract).</li><br>
-
-  <li>Tucker A, Eisdorfer JT,  Thackray J, Vo K, Thomas H, Tandon A, Moses J, Singletary B, Gillespie T, Smith A, Pauken A, Nadella S, Pitonak M, Letchuman S, Jang J,  **Totty MS**,  Jalufka FL,  Aceves M,  Adler AF,  Maren S,  Blackmon H,  McCreedy DA,  Abraira V,  Dulin J (2025). <ins>Functional synaptic connectivity of engrafted spinal cord neurons with locomotor circuitry in the injured spinal cord</ins>. _bioRxiv_ [DOI: 10.1101/2025.04.05.644402](https://www.biorxiv.org/content/10.1101/2025.04.05.644402v1).</li><br>
-
+  <li>Shah K, **Totty MS**, Bach SV, Valentine M, Chandra A, Divecha HR, Miller R, Kwon SH, Ramnauth A, Tippani M, Tyagi S, Kleinman JE, Collado-Torres L, Han S, Hyde TM, Page SC, Maynard KR, Hicks SC, Martinowich K. <ins>Spatio-molecular gene expression reflects dorsal anterior cingulate cortex structure and function in the human brain</ins>.  _bioRxiv._ [DOI: 10.1101/2025.07.14.664821](https://www.biorxiv.org/content/10.1101/2025.07.14.664821v1).</li><br>
+  
+  <li>Magnard R, Gonzalez-Padilla D, Yalcinbas E, Chaloux-Pinette E, Eagles N, **Totty MS**, Janak P, Collado-Torres, Maynard K. (2025). <ins>Transcriptional response to chronic long-access fentanyl self-administration in rat habenula and amygdala</ins>. _bioRxiv._ [DOI: 10.1101/2025.11.25.690517](https://www.biorxiv.org/content/10.1101/2025.11.25.690517v2.abstract).</li><br>
+  
+  <li>Chen X, **Totty MS**, and Hicks S. (2025). <ins>Spotsweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem</ins>. _Accepted at F1000._ [DOI: 10.64898/2025.12.06.692760](https://www.biorxiv.org/content/10.64898/2025.12.06.692760v1.abstract).</li><br>
 
 </ol>
 
@@ -30,9 +29,15 @@ format:
 
 <ol reversed>
 
+  <li>Miranda-Barrientos J, Adirahu S, Rehg J, **Totty MS**, Hallock H, Li Y, Carr G, and Martinowich K. (2026). <ins>Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test</ins>. _Translational Psychiatry._ [DOI: 10.1101/2024.07.26.605300](https://www.nature.com/articles/s41398-025-03707-7).</li><br>
+      
+  <li>Mourao F, **Totty MS**, Tuna T, and Maren S. (2025). <ins>Hippocampal-prelimbic coupling during context-dependent exintction retrieval in rats.</ins>. _Hippocampus._ [DOI: 10.1002/hipo.70058](https://onlinelibrary.wiley.com/doi/full/10.1002/hipo.70058).</li><br>
+
+  <li>Tucker A, Eisdorfer JT,  Thackray J, Vo K, Thomas H, Tandon A, Moses J, Singletary B, Gillespie T, Smith A, Pauken A, Nadella S, Pitonak M, Letchuman S, Jang J,  **Totty MS**,  Jalufka FL,  Aceves M,  Adler AF,  Maren S,  Blackmon H,  McCreedy DA,  Abraira V,  Dulin J (2025). <ins>Functional synaptic connectivity of engrafted spinal cord neurons with locomotor circuitry in the injured spinal cord</ins>. _Nature Communications._ [DOI: 10.1038/s41467-025-65395-7](https://www.nature.com/articles/s41467-025-65395-7).</li><br>
+
   <li>**Totty MS^#^**,  Cervera-Juanes#, R., Bach, S.V.#, Ben Ameur, L., Valentine, M.R., Simons, E., Romac, M.D., Trinh, H., Henderson, K., Del Rosario, I., et al (2025). <ins>Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates</ins>. _Science Advances._ [DOI: 10.1101/2025.07.14.664821](https://www.biorxiv.org/content/10.1101/2025.07.14.664821v1).</li><br>
   
-  <li>Tuna T^#^, **Totty MS^#^**, Badarnee M, Mourao M, Peters S, Milad M (2025). <ins>Associative coding of conditioned fear in the thalamic reuniens in rodents and humans</ins>. _Communications Biology_ [DOI: 10.10.1038/s42003-025-08580-0.](https://www.nature.com/articles/s42003-025-08580-0).</li><br>
+  <li>Tuna T^#^, **Totty MS^#^**, Badarnee M, Mourao M, Peters S, Milad M (2025). <ins>Associative coding of conditioned fear in the thalamic reuniens in rodents and humans</ins>. _Communications Biology._ [DOI: 10.10.1038/s42003-025-08580-0.](https://www.nature.com/articles/s42003-025-08580-0).</li><br>
 
 
   <li>**Totty MS**, Hicks S, and Guo B (2025). <ins>SpotSweeper: spatially-aware quality control for spatial transcriptomics</ins>. _Nature Methods._ [DOI: 10.1038/s41592-025-02713-3](https://www.nature.com/articles/s41592-025-02713-3).</li><br>
