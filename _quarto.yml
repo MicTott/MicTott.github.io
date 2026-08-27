@@ -3,49 +3,39 @@
 # website settings
 website:
   title: "Michael S. Totty"                                # Your name
-  description: "Postdoctoral Fellow"   # A brief slogan (optional)
-  image: img/my_image.jpg
+  description: "Research Scientist at the Lieber Institute for Brain Development, working at the intersection of molecular, computational, and systems neuroscience."
+  image: img/michael_totty.png
+  favicon: img/favicon.svg
   site-url: https://MicTott.github.io/
-  
-   
+  open-graph: true
+  twitter-card:
+    card-style: summary
+
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
-    
+
     # your sub-pages
     left:
       - text: "Projects"
         href: projects/index.qmd
       - text: "Publications"
         href: publications/index.qmd
-      - text: "Software"
+      - text: "Software & Data"
         href: software/index.qmd
       - text: "CV"
         href: cv/index.qmd
-    
-    # your social media handles
-    right:
-      - icon: google
-        href: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=aQEL5ecAAAAJ
-      - icon: github
-        href: https://github.com/MicTott
-      - icon: twitter
-        href: https://twitter.com/MicTott
-      - icon: linkedin
-        href: https://www.linkedin.com/in/mictott/
-      - icon: envelope
-        aria-label: email
-        href: "mailto:mtotty2@jh.edu"  
-  
-  
+
+
+
 
 # Don't touch unless you know what you are doing :) ------------
-  search: 
+  search:
     location: navbar
     type: textbox
-  page-footer: 
+  page-footer:
     left: |
-      <span class="faux-block">&#169; 2025 Michael S. Totty CC BY-SA 4.0</span>
+      <span class="faux-block">&#169; 2026 Michael S. Totty CC BY-SA 4.0</span>
 #    right: |
 #      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
 
@@ -53,7 +43,7 @@ project:
   type: website
   output-dir: docs
 
-  preview: 
+  preview:
     port: 22222
     browser: true
     watch-inputs: true
@@ -64,11 +54,16 @@ execute:
 
 format:
   html:
+    description-meta: "Research Scientist at the Lieber Institute for Brain Development, working at the intersection of molecular, computational, and systems neuroscience."
     fontsize: 0.9em
     mainfont: "Roboto"
-    theme: 
-      - lux
-      - html/styles.scss
+    theme:
+      light:
+        - lux
+        - html/styles.scss
+      dark:
+        - darkly
+        - html/styles-dark.scss
     toc: false
     code-link: true
     anchor-sections: true

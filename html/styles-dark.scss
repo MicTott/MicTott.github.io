@@ -17,26 +17,23 @@ $gray-800: #373a3c !default;
 $gray-900: #212529 !default;
 $black:    #000000 !default;
 
-$blue:    #2780e3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #170C3A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$light-orange:  #FB9E07 !default;
-$yellow:  #F6D645 !default;
-$green:   #118230 !default;
-$teal:    #068194 !default;
-$cyan:    #3093CF !default;
+$blue:          #6EB6E8 !default;
+$orange:        #EE6A24 !default;
+$red:           #CF4446 !default;
+$green:         #3FA34D !default;
+$cyan:          #4FC3D9 !default;
 
-$primary:   $white !default;
-$secondary: $white !default;
+$body-bg:    #16191c !default;
+$body-color: #e4e6e8 !default;
+
+$primary:   $body-bg !default;
+$secondary: $gray-800 !default;
 $success:   $green !default;
 $info:      $cyan !default;
 $warning:   $orange !default;
 $danger:    $red !default;
-$light:     $blue !default;
-$dark:      $black !default;
+$light:     $gray-300 !default;
+$dark:      $gray-900 !default;
 
 // Links
 $link-color: $cyan !default;
@@ -45,12 +42,12 @@ $link-hover-color: $blue !default;
 $link-hover-decoration: underline !default;
 
 // Footer
-$footer-bg: $gray-900 !default;
-$footer-fg: $white !default;
+$footer-bg: #0f1113 !default;
+$footer-fg: $body-color !default;
 
 // Inline code
-$code-bg: $gray-200 !default;
-$code-color: $gray-900 !default;
+$code-bg: #24282c !default;
+$code-color: #f0b7a4 !default;
 
 // TOC
 $toc-color: $cyan;
@@ -59,20 +56,14 @@ $toc-font-size: 1em;
 // Code copy
 $btn-code-copy-color-active: $orange !default;
 
-// Body text color
-$body-color: $black !default;
-
 /*-- scss:rules --*/
 
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-
-
-// Apply font styles
 body {
     font-family: $font-primary;
-    font-size: 16px; // Adjust font size as needed
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,15 +78,20 @@ strong, b {
     font-weight: 700;
 }
 
+// The CV page embeds a PDF in an iframe; keep it readable on a dark page.
+.embed-container {
+    background: $white;
+}
+
 .nav-footer {
     font-family: $font-secondary;
-    align-items: flex-start;  // Align all flex items to the top
+    align-items: flex-start;
     flex-wrap: wrap;
     border: 0 !important;
     min-height: 3em;
 
     a {
-        color: $primary;
+        color: $footer-fg;
     }
 
     .faux-block {
@@ -137,7 +133,6 @@ strong, b {
             flex: 1 1 33%;
         }
     }
-    
 }
 
 
@@ -160,7 +155,7 @@ main.content > ol {
     display: flex;
     gap: 0.9rem;
     padding: 0.9rem 0;
-    border-bottom: 1px solid var(--bs-border-color, #{$gray-300});
+    border-bottom: 1px solid var(--bs-border-color, #{$gray-700});
 
     &:last-child {
         border-bottom: 0;
@@ -227,7 +222,7 @@ main.content > ol {
         text-transform: uppercase;
         letter-spacing: 0.04em;
         padding: 0.1rem 0.5rem;
-        border: 1px solid var(--bs-border-color, #{$gray-300});
+        border: 1px solid var(--bs-border-color, #{$gray-700});
         border-radius: 999px;
         cursor: pointer;
         opacity: 0.8;

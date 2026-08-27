@@ -6,6 +6,9 @@ about:
   image-shape: round
   image-width: 22em
   links:
+    - icon: person-vcard
+      text: ORCID
+      href: https://orcid.org/0000-0002-9292-8556
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=aQEL5ecAAAAJ
@@ -26,14 +29,11 @@ about:
 
 <div style="max-width: 120%; margin: 0 auto;">
 # Michael Totty
-I am a postdoctoral neuroscientist working at the intersection of molecular, computational, and systems neuroscience. My research combines transcriptomic profiling of the human brain with circuit-level studies in preclinical models to uncover how cell types and neural pathways are altered in psychiatric disease. This two-part strategy links the identification of vulnerable cell types and circuits in postmortem human brains with experimental dissection of their functional roles in vivo. In parallel, I develop novel computational tools and data resources to accelerate discovery and advance our understanding of the neural circuits that underlie psychiatric disorders across species.
+I am a neuroscientist working at the intersection of molecular, computational, and systems neuroscience. My research combines transcriptomic profiling of the human brain with circuit-level studies in preclinical models to uncover how cell types and neural pathways are altered in psychiatric disease. This two-part strategy links the identification of vulnerable cell types and circuits in postmortem human brains with experimental dissection of their functional roles in vivo. In parallel, I develop novel computational tools and data resources to accelerate discovery and advance our understanding of the neural circuits that underlie psychiatric disorders across species.
 </div>
 
 
 
-Currently, I'm an [NIMH F32 Kirschtein-NRSA Postdoctoral Fellow](https://researchtraining.nih.gov/programs/fellowships/F32) in the Department of Biostatistics at Johns Hopkins Bloomberg School of Public Health, advised by [Dr. Stephanie Hicks](https://www.stephaniehicks.com/) and co-advised by [Dr. Keri Martinowich](https://www.libd.org/team/keri-martinowich/) of the Lieber Institute for Brain Development. My work is additionally funded through a [Young Investigator Awardfrom the Brain & Behavior Research Foundation](https://bbrfoundation.org/grants-prizes/bbrf-young-investigator-grants). I previously received my PhD in Neuroscience under the mentorship of [Dr. Stephen Maren](https://marenlab.org/) at the Institute for Neuroscience at Texas A&M University in 2022, and a BS in Biomedical Engineering from the University of Tennessee in 2016.
+Currently, I'm a Research Scientist at the [Lieber Institute for Brain Development](https://www.libd.org/), where I lead a research program combining postmortem human transcriptomics with circuit-level neuroscience in preclinical models. This work is supported by a [Young Investigator Award from the Brain & Behavior Research Foundation](https://bbrfoundation.org/grants-prizes/bbrf-young-investigator-grants).
 
-
-
-
-
+Previously, I was an [NIMH F32 Ruth L. Kirschstein NRSA Postdoctoral Fellow](https://researchtraining.nih.gov/programs/fellowships/F32) in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health, advised by [Dr. Stephanie Hicks](https://www.stephaniehicks.com/) and co-advised by [Dr. Keri Martinowich](https://www.libd.org/team/keri-martinowich/) of the Lieber Institute for Brain Development. I received my PhD in Neuroscience under the mentorship of [Dr. Stephen Maren](https://marenlab.org/) at the Institute for Neuroscience at Texas A&M University in 2022, and a BS in Biomedical Engineering from the University of Tennessee in 2016.

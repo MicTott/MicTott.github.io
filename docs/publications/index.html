@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Research Scientist at the Lieber Institute for Brain Development, working at the intersection of molecular, computational, and systems neuroscience.">
 
 <title>Michael S. Totty - Manuscripts and Publications</title>
 <style>
@@ -29,15 +30,20 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,8 +70,100 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-preprints .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
+    const options = {
+      valueNames: ['listing-number','listing-title','listing-author','listing-journal','listing-year','listing-categories','listing-doi','listing-note',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-number","listing-title","listing-author","listing-journal","listing-year","listing-categories","listing-doi","listing-note"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-preprints'] = new List('listing-preprints', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-published .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-number','listing-title','listing-author','listing-journal','listing-year','listing-doi','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-number","listing-title","listing-author","listing-journal","listing-year","listing-doi","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-published'] = new List('listing-published', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Michael S. Totty - Manuscripts and Publications">
+<meta property="og:image" content="https://MicTott.github.io/publications/img/michael_totty.png">
+<meta property="og:site_name" content="Michael S. Totty">
+<meta name="twitter:title" content="Michael S. Totty - Manuscripts and Publications">
+<meta name="twitter:image" content="https://MicTott.github.io/publications/img/michael_totty.png">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -95,42 +193,16 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../software/index.html"> 
-<span class="menu-text">Software</span></a>
+<span class="menu-text">Software &amp; Data</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;hl=en&amp;user=aQEL5ecAAAAJ"> <i class="bi bi-google" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/MicTott"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/MicTott"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/mictott/"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:mtotty2@jh.edu"> <i class="bi bi-envelope" role="img" aria-label="email">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -139,18 +211,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#preprints-and-submitted-manuscripts" id="toc-preprints-and-submitted-manuscripts" class="nav-link active" data-scroll-target="#preprints-and-submitted-manuscripts">Preprints and Submitted Manuscripts</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -159,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -171,99 +234,541 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="pub-legend">
+<p><sup>#</sup> equal contribution &nbsp;·&nbsp; * mentored student &nbsp;·&nbsp; see also <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;hl=en&amp;user=aQEL5ecAAAAJ">Google Scholar</a> and <a href="https://orcid.org/0000-0002-9292-8556">ORCID</a></p>
+</div>
+<div class="quarto-listing-category pub-category-bar">
+  <div class="quarto-listing-category-title category-all">All topics</div>
+  <div class="category" data-category="Human brain">Human brain</div>
+  <div class="category" data-category="Methods &amp; software">Methods &amp; software</div>
+  <div class="category" data-category="Fear &amp; extinction">Fear &amp; extinction</div>
+  <div class="category" data-category="Neural circuits">Neural circuits</div>
+  <div class="category" data-category="Review">Review</div>
+</div>
 <section id="preprints-and-submitted-manuscripts" class="level2">
 <h2 class="anchored" data-anchor-id="preprints-and-submitted-manuscripts">Preprints and Submitted Manuscripts</h2>
-<ol reversed="">
-<li>
-Crowell HL, Dong Y, Billato I, Cai P, Emons M, Gunz S, Guo B, Li M, Mahmoud A, Manukyan A, Pagès H, Panwar P, Rao S, Sargeant CJ, Kern LS, Ramos M, Sun J, <strong>Totty MS</strong>, Carey VJ, Chen Y, Collado-Torres L, Ghazanfar S, Hansen KD, Martinowich K, Maynard KR, Patrick E, Righelli D, Risso D, Tiberi S, Waldron L, Gottardo R, Robinson MD, Hicks SC, Weber LM. <ins>Orchestrating Spatial Transcriptomics Analysis with Bioconductor.</ins> <em>bioRxiv.</em> <a href="https://www.biorxiv.org/content/10.1101/2025.11.20.688607v1.abstract">DOI: 10.1101/2025.11.20.688607</a>.
-</li>
-<p><br></p>
-<li>
-Goode TD, Bernstein M, <strong>Totty MS</strong>, Alipio JB, Vicidomini C, Pathak D, Besnard A, Chizari D, Sachdev N, Kritzer M, Chung A, Duan X, Macosko E, Hicks SC, Zweifel L, Sahay A. <ins>A dorsal hippocampus-prodynorphinergic dorsolateral septum-to-lateral hypothalamus circuit mediates contextual gating of feeding.</ins> <em>bioRxiv.</em> <a href="https://www.biorxiv.org/content/10.1101/2024.08.02.606427v1">DOI: 10.1101/2024.08.02.606427</a>.
-</li>
-<p><br></p>
-<li>
-Shah K, <strong>Totty MS</strong>, Bach SV, Valentine M, Chandra A, Divecha HR, Miller R, Kwon SH, Ramnauth A, Tippani M, Tyagi S, Kleinman JE, Collado-Torres L, Han S, Hyde TM, Page SC, Maynard KR, Hicks SC, Martinowich K. <ins>Spatio-molecular gene expression reflects dorsal anterior cingulate cortex structure and function in the human brain</ins>. <em>bioRxiv.</em> <a href="https://www.biorxiv.org/content/10.1101/2025.07.14.664821v1">DOI: 10.1101/2025.07.14.664821</a>.
-</li>
-<p><br></p>
-<li>
-Magnard R, Gonzalez-Padilla D, Yalcinbas E, Chaloux-Pinette E, Eagles N, <strong>Totty MS</strong>, Janak P, Collado-Torres, Maynard K. (2025). <ins>Transcriptional response to chronic long-access fentanyl self-administration in rat habenula and amygdala</ins>. <em>bioRxiv.</em> <a href="https://www.biorxiv.org/content/10.1101/2025.11.25.690517v2.abstract">DOI: 10.1101/2025.11.25.690517</a>.
-</li>
-<p><br></p>
-<li>
-Chen X, <strong>Totty MS</strong>, and Hicks S. (2025). <ins>Spotsweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem</ins>. <em>Accepted at F1000.</em> <a href="https://www.biorxiv.org/content/10.64898/2025.12.06.692760v1.abstract">DOI: 10.64898/2025.12.06.692760</a>.
-</li>
-<p><br></p>
-</ol>
+<div id="listing-preprints" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-no-matching d-none">
+No matching publications.
+</div>
+<div class="pub-list list">
+<div class="pub-item" data-index="0" data-categories="Human brain">
+<div class="pub-number listing-number">
+2.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Multiscale spatial transcriptomics resolves the cellular and molecular architecture of the human amygdala
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong><sup>#</sup>, Bach S<sup>#</sup>, Valentine M, Tippani M, Maguire S, Miller R, Rosario I, Kleinman J, Maynard K, Hyde T, Page S, Hicks S, Martinowich K
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">bioRxiv</span> <span class="pub-year listing-year">2026</span></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Human brain'); } return false;">
+Human brain
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="1" data-categories="Methods &amp; software">
+<div class="pub-number listing-number">
+1.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Orchestrating Spatial Transcriptomics Analysis with Bioconductor
+</div>
+<div class="pub-authors listing-author">
+Crowell HL<sup>#</sup>, Dong Y<sup>#</sup>, Billato I, Cai P, Emons M, Gunz S, Guo B, Li M, Mahmoud A, Manukyan A, Pagès H, Panwar P, Rao S, Sargeant C, Shepherd Kern L, Ramos M, Sun J, <strong>Totty MS</strong>, Carey V, Chen Y, Collado-Torres L, Ghazanfar S, Hansen KD, Martinowich K, Maynard KR, Patrick E, Righelli D, Risso D, Ritchie ME, Tiberi S, Waldron L, Gottardo R, Robinson MD<sup>#</sup>, Hicks SC<sup>#</sup>, Weber LM<sup>#</sup>
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">bioRxiv</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1101/2025.11.20.688607" target="_blank" rel="noopener">DOI: 10.1101/2025.11.20.688607</a></p>
+</div>
+<div class="pub-note">
+Under revision at <em>Nature Methods</em>.
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Methods &amp; software'); } return false;">
+Methods &amp; software
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<ol reversed="">
-<li>
-Miranda-Barrientos J, Adirahu S, Rehg J, <strong>Totty MS</strong>, Hallock H, Li Y, Carr G, and Martinowich K. (2026). <ins>Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test</ins>. <em>Translational Psychiatry.</em> <a href="https://www.nature.com/articles/s41398-025-03707-7">DOI: 10.1101/2024.07.26.605300</a>.
-</li>
-<p><br></p>
-<li>
-Mourao F, <strong>Totty MS</strong>, Tuna T, and Maren S. (2025). <ins>Hippocampal-prelimbic coupling during context-dependent exintction retrieval in rats.</ins>. <em>Hippocampus.</em> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/hipo.70058">DOI: 10.1002/hipo.70058</a>.
-</li>
-<p><br></p>
-<li>
-Tucker A, Eisdorfer JT, Thackray J, Vo K, Thomas H, Tandon A, Moses J, Singletary B, Gillespie T, Smith A, Pauken A, Nadella S, Pitonak M, Letchuman S, Jang J, <strong>Totty MS</strong>, Jalufka FL, Aceves M, Adler AF, Maren S, Blackmon H, McCreedy DA, Abraira V, Dulin J (2025). <ins>Functional synaptic connectivity of engrafted spinal cord neurons with locomotor circuitry in the injured spinal cord</ins>. <em>Nature Communications.</em> <a href="https://www.nature.com/articles/s41467-025-65395-7">DOI: 10.1038/s41467-025-65395-7</a>.
-</li>
-<p><br></p>
-<li>
-<strong>Totty MS<sup>#</sup></strong>, Cervera-Juanes#, R., Bach, S.V.#, Ben Ameur, L., Valentine, M.R., Simons, E., Romac, M.D., Trinh, H., Henderson, K., Del Rosario, I., et al (2025). <ins>Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates</ins>. <em>Science Advances.</em> <a href="https://www.biorxiv.org/content/10.1101/2025.07.14.664821v1">DOI: 10.1101/2025.07.14.664821</a>.
-</li>
-<p><br></p>
-<li>
-Tuna T<sup>#</sup>, <strong>Totty MS<sup>#</sup></strong>, Badarnee M, Mourao M, Peters S, Milad M (2025). <ins>Associative coding of conditioned fear in the thalamic reuniens in rodents and humans</ins>. <em>Communications Biology.</em> <a href="https://www.nature.com/articles/s42003-025-08580-0">DOI: 10.10.1038/s42003-025-08580-0.</a>.
-</li>
-<p><br></p>
-<li>
-<strong>Totty MS</strong>, Hicks S, and Guo B (2025). <ins>SpotSweeper: spatially-aware quality control for spatial transcriptomics</ins>. <em>Nature Methods.</em> <a href="https://www.nature.com/articles/s41592-025-02713-3">DOI: 10.1038/s41592-025-02713-3</a>.
-</li>
-<p><br></p>
-<li>
-Liu J, <strong>Totty MS</strong> , Bayer H, Maren S (2025). <ins>Integrating aversive memories in the basolateral amygdala</ins>. <em>Biological Psychiatry.</em> <a href="https://www.sciencedirect.com/science/article/pii/S0006322325011072">DOI: 10.1016/j.biopsych.2025.03.019</a>.
-</li>
-<br>
-<li>
-<strong>Totty MS</strong>, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S (2023). <ins>Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear</ins>. <em>Nature Communications.</em> <a href="https://www.nature.com/articles/s41467-023-42315-1">DOI: 10.1038/s41467-023-42315-1</a>.
-</li>
-<p><br></p>
-<li>
-<strong>Totty MS</strong> and Maren S (2022). <ins>Neural oscillations in Aversively Motivated Behavior</ins>. <em>Frontiers in Behavioral Neuroscience.</em> <a href="https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.936036/full">DOI: 10.3389/fnbeh.2022.936036</a>.
-</li>
-<br>
-<li>
-Binette AN#, <strong>Totty MS#</strong>, Maren S (2022). <ins>Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats</ins>. <em>PLOS One.</em> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264797">DOI: 10.1371/journal.pone.0264797</a>.
-</li>
-<br>
-<li>
-Liu J#, <strong>Totty MS#</strong>, Melissari L, Bayer H, Maren S (2022). <ins>Convergent coding of recent and remote fear memory in the basolateral amygdala</ins>. <em>Biological Psychiatry.</em> <a href="https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)00023-3/fulltext">DOI: 10.1016/j.biopsych.2021.12.018</a>.
-</li>
-<br>
-<li>
-<strong>Totty MS</strong>, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S (2021). <ins>Behavioral and brain mechanisms mediating conditioned flight behavior in rats</ins>. <em>Scientific Reports.</em> <a href="https://www.nature.com/articles/s41598-021-87559-3">DOI: 10.1038/s41598-021-87559-3</a>.
-</li>
-<br>
-<li>
-Giustino TF, Ramanathan KR, <strong>Totty MS</strong>, Miles OM, and Maren S (2020). <ins>Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning</ins>. <em>Journal of Neuroscience.</em> <a href="https://www.jneurosci.org/content/40/4/907">DOI: 10.1523/JNEUROSCI.1092-19.2019</a>.
-</li>
-<br>
-<li>
-<strong>Totty MS</strong>, Payne M, Maren S (2019). <ins>Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats</ins>. <em>Scientific Reports.</em> <a href="https://www.nature.com/articles/s41598-019-46010-4">DOI: 10.1038/s41598-019-46010-4</a>.
-</li>
-<br>
-<li>
-<strong>Totty MS</strong>, Chesney LA, Geist PA, Datta S (2017). <ins>Sleep-dependent oscillatory synchronization: a role in fear memory consolidation</ins>. <em>Frontiers in Neural Circuits.</em> <a href="https://www.frontiersin.org/journals/neural-circuits/articles/10.3389/fncir.2017.00049/full">DOI: 10.3389/fncir.2017.00049</a>.
-</li>
-<br>
-<li>
-<strong>Totty MS</strong> and Wade E (2017). <ins>Muscle Activation and Inertial Motion Data for Non-Invasive Classification of Activities of Daily Living</ins>. <em>IEEE Transactions on Biomedical Engineering.</em> <a href="https://ieeexplore.ieee.org/abstract/document/8007300/">DOI: 10.1109/TBME.2017.2738440</a>.
-</li>
-<p><br></p>
-</ol>
+<div id="listing-published" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching publications.
+</div>
+<div class="pub-list list">
+<div class="pub-item" data-index="0" data-categories="Neural circuits">
+<div class="pub-number listing-number">
+21.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Transcriptional response to chronic long-access fentanyl self-administration in rat habenula and amygdala
+</div>
+<div class="pub-authors listing-author">
+Magnard R, Gonzalez-Padilla D, Yalcinbas E, Chaloux-Pinette E, Eagles N, <strong>Totty MS</strong>, Janak P, Collado-Torres L, Maynard K
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Addiction Biology</span> <span class="pub-year listing-year">2026</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1111/adb.70179" target="_blank" rel="noopener">DOI: 10.1111/adb.70179</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Neural circuits'); } return false;">
+Neural circuits
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="1" data-categories="Neural circuits">
+<div class="pub-number listing-number">
+20.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Cortistatin neurons in the prelimbic cortex regulate seizure susceptibility in female mice via BDNF–TrkB signaling
+</div>
+<div class="pub-authors listing-author">
+Salisbury A, Figueroa L, Martinowich K<sup>#</sup>, <strong>Totty MS</strong><sup>#</sup>
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Neurobiology of Disease</span> <span class="pub-year listing-year">2026</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1016/j.nbd.2026.107498" target="_blank" rel="noopener">DOI: 10.1016/j.nbd.2026.107498</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Neural circuits'); } return false;">
+Neural circuits
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="2" data-categories="Human brain">
+<div class="pub-number listing-number">
+19.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Spatio-molecular gene expression reflects dorsal anterior cingulate cortex structure and function in the human brain
+</div>
+<div class="pub-authors listing-author">
+Shah K, <strong>Totty MS</strong>, Bach SV, Valentine M, Chandra A, Divecha HR, Miller R, Kwon SH, Ramnauth A, Tippani M, Tyagi S, Kleinman JE, Collado-Torres L, Han S, Hyde TM, Page SC, Maynard KR, Hicks SC, Martinowich K
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Cell Reports</span> <span class="pub-year listing-year">2026</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1016/j.celrep.2026.117500" target="_blank" rel="noopener">DOI: 10.1016/j.celrep.2026.117500</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Human brain'); } return false;">
+Human brain
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="3" data-categories="Methods &amp; software">
+<div class="pub-number listing-number">
+18.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+SpotSweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem
+</div>
+<div class="pub-authors listing-author">
+Chen X, <strong>Totty MS</strong>, Hicks SC
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">F1000Research</span> <span class="pub-year listing-year">2026</span> <a class="pub-doi listing-doi" href="https://doi.org/10.12688/f1000research.175162.1" target="_blank" rel="noopener">DOI: 10.12688/f1000research.175162.1</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Methods &amp; software'); } return false;">
+Methods &amp; software
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="4" data-categories="Neural circuits">
+<div class="pub-number listing-number">
+17.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+A dorsal hippocampus–prodynorphinergic dorsolateral septum-to-lateral hypothalamus circuit mediates contextual gating of feeding
+</div>
+<div class="pub-authors listing-author">
+Goode TD, Bernstein M, <strong>Totty MS</strong>, Alipio JB, Vicidomini C, Pathak D, Besnard A, Chizari D, Sachdev N, Kritzer M, Chung A, Duan X, Macosko E, Hicks SC, Zweifel L, Sahay A
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Neuron</span> <span class="pub-year listing-year">2026</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1016/j.neuron.2026.01.025" target="_blank" rel="noopener">DOI: 10.1016/j.neuron.2026.01.025</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Neural circuits'); } return false;">
+Neural circuits
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="5" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+16.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Hippocampal-prelimbic coupling during context-dependent extinction retrieval in rats
+</div>
+<div class="pub-authors listing-author">
+Mourão F, <strong>Totty MS</strong>, Tuna T, and Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Hippocampus</span> <span class="pub-year listing-year">2026</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1002/hipo.70058" target="_blank" rel="noopener">DOI: 10.1002/hipo.70058</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="6" data-categories="Neural circuits">
+<div class="pub-number listing-number">
+15.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Functional synaptic connectivity of engrafted spinal cord neurons with locomotor circuitry in the injured spinal cord
+</div>
+<div class="pub-authors listing-author">
+Tucker A, Eisdorfer JT, Thackray JK, Vo K, Thomas H, Tandon A, Moses J, Singletary B, Gillespie T, Smith A, Pauken A, Nadella S, Pitonak M, Letchuman S, Jang J, <strong>Totty MS</strong>, Jalufka FL, Aceves M, Adler AF, Maren S, Blackmon H, McCreedy DA, Abraira V, Dulin J
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Nature Communications</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s41467-025-65395-7" target="_blank" rel="noopener">DOI: 10.1038/s41467-025-65395-7</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Neural circuits'); } return false;">
+Neural circuits
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="7" data-categories="Neural circuits">
+<div class="pub-number listing-number">
+14.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test
+</div>
+<div class="pub-authors listing-author">
+Miranda-Barrientos J, Adiraju S*, Rehg J, <strong>Totty MS</strong>, Hallock H, Li Y, Carr G, and Martinowich K
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Translational Psychiatry</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s41398-025-03707-7" target="_blank" rel="noopener">DOI: 10.1038/s41398-025-03707-7</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Neural circuits'); } return false;">
+Neural circuits
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="8" data-categories="Human brain">
+<div class="pub-number listing-number">
+13.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong><sup>#</sup>, Cervera-Juanes R<sup>#</sup>, Bach SV<sup>#</sup>, Ben Ameur L, Valentine MR, Simons E, Romac MD, Trinh H, Henderson K, Del Rosario I, et al.
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Science Advances</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1126/sciadv.adw1029" target="_blank" rel="noopener">DOI: 10.1126/sciadv.adw1029</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Human brain'); } return false;">
+Human brain
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="9" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+12.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Associative coding of aversive events in thalamic nucleus reuniens in rodents and humans
+</div>
+<div class="pub-authors listing-author">
+Tuna T<sup>#</sup><em>, <strong>Totty MS</strong><sup>#</sup>, Badarnee M<sup>#</sup>, Mourão F, Peters S</em>, Milad M, and Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Communications Biology</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s42003-025-08580-0" target="_blank" rel="noopener">DOI: 10.1038/s42003-025-08580-0</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="10" data-categories="Methods &amp; software">
+<div class="pub-number listing-number">
+11.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+SpotSweeper: spatially-aware quality control for spatial transcriptomics
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong>, Hicks S, and Guo B
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Nature Methods</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s41592-025-02713-3" target="_blank" rel="noopener">DOI: 10.1038/s41592-025-02713-3</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Methods &amp; software'); } return false;">
+Methods &amp; software
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="11" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+10.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Integrating aversive memories in the basolateral amygdala
+</div>
+<div class="pub-authors listing-author">
+Liu J, <strong>Totty MS</strong>, Bayer H, Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Biological Psychiatry</span> <span class="pub-year listing-year">2025</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1016/j.biopsych.2025.03.019" target="_blank" rel="noopener">DOI: 10.1016/j.biopsych.2025.03.019</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="12" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+9.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong>, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Nature Communications</span> <span class="pub-year listing-year">2023</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s41467-023-42315-1" target="_blank" rel="noopener">DOI: 10.1038/s41467-023-42315-1</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="13" data-categories="Fear &amp; extinction,Review">
+<div class="pub-number listing-number">
+8.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Neural oscillations in aversively motivated behavior
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong> and Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Frontiers in Behavioral Neuroscience</span> <span class="pub-year listing-year">2022</span> <a class="pub-doi listing-doi" href="https://doi.org/10.3389/fnbeh.2022.936036" target="_blank" rel="noopener">DOI: 10.3389/fnbeh.2022.936036</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Review'); } return false;">
+Review
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="14" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+7.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats
+</div>
+<div class="pub-authors listing-author">
+Binette AN<sup>#</sup>, <strong>Totty MS</strong><sup>#</sup>, Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">PLOS One</span> <span class="pub-year listing-year">2022</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1371/journal.pone.0264797" target="_blank" rel="noopener">DOI: 10.1371/journal.pone.0264797</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="15" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+6.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Convergent coding of recent and remote fear memory in the basolateral amygdala
+</div>
+<div class="pub-authors listing-author">
+Liu J<sup>#</sup>, <strong>Totty MS</strong><sup>#</sup>, Melissari L, Bayer H, Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Biological Psychiatry</span> <span class="pub-year listing-year">2022</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1016/j.biopsych.2021.12.018" target="_blank" rel="noopener">DOI: 10.1016/j.biopsych.2021.12.018</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="16" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+5.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Behavioral and brain mechanisms mediating conditioned flight behavior in rats
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong>, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Scientific Reports</span> <span class="pub-year listing-year">2021</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s41598-021-87559-3" target="_blank" rel="noopener">DOI: 10.1038/s41598-021-87559-3</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="17" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+4.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning
+</div>
+<div class="pub-authors listing-author">
+Giustino TF, Ramanathan KR, <strong>Totty MS</strong>, Miles OM, and Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Journal of Neuroscience</span> <span class="pub-year listing-year">2020</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1523/JNEUROSCI.1092-19.2019" target="_blank" rel="noopener">DOI: 10.1523/JNEUROSCI.1092-19.2019</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="18" data-categories="Fear &amp; extinction">
+<div class="pub-number listing-number">
+3.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong>, Payne M, Maren S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Scientific Reports</span> <span class="pub-year listing-year">2019</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1038/s41598-019-46010-4" target="_blank" rel="noopener">DOI: 10.1038/s41598-019-46010-4</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="19" data-categories="Fear &amp; extinction,Review">
+<div class="pub-number listing-number">
+2.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Sleep-dependent oscillatory synchronization: a role in fear memory consolidation
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong>, Chesney LA, Geist PA, Datta S
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">Frontiers in Neural Circuits</span> <span class="pub-year listing-year">2017</span> <a class="pub-doi listing-doi" href="https://doi.org/10.3389/fncir.2017.00049" target="_blank" rel="noopener">DOI: 10.3389/fncir.2017.00049</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Fear &amp; extinction'); } return false;">
+Fear &amp; extinction
+</div>
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Review'); } return false;">
+Review
+</div>
+</div>
+</div>
+</div>
+<div class="pub-item" data-index="20" data-categories="Methods &amp; software">
+<div class="pub-number listing-number">
+1.
+</div>
+<div class="pub-body">
+<div class="pub-title listing-title">
+Muscle activation and inertial motion data for non-invasive classification of activities of daily living
+</div>
+<div class="pub-authors listing-author">
+<strong>Totty MS</strong> and Wade E
+</div>
+<div class="pub-meta">
+<p><span class="pub-journal listing-journal">IEEE Transactions on Biomedical Engineering</span> <span class="pub-year listing-year">2017</span> <a class="pub-doi listing-doi" href="https://doi.org/10.1109/TBME.2017.2738440" target="_blank" rel="noopener">DOI: 10.1109/TBME.2017.2738440</a></p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('Methods &amp; software'); } return false;">
+Methods &amp; software
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 </section>
@@ -289,6 +794,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -682,7 +1331,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block">© 2025 Michael S. Totty CC BY-SA 4.0</span></p>
+<p><span class="faux-block">© 2026 Michael S. Totty CC BY-SA 4.0</span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

@@ -1,0 +1,167 @@
+- number: 21
+  title: "Transcriptional response to chronic long-access fentanyl self-administration in rat habenula and amygdala"
+  author: "Magnard R, Gonzalez-Padilla D, Yalcinbas E, Chaloux-Pinette E, Eagles N, **Totty MS**, Janak P, Collado-Torres L, Maynard K"
+  journal: "Addiction Biology"
+  year: 2026
+  doi: "10.1111/adb.70179"
+  categories: [Neural circuits]
+
+- number: 20
+  title: "Cortistatin neurons in the prelimbic cortex regulate seizure susceptibility in female mice via BDNF–TrkB signaling"
+  author: "Salisbury A, Figueroa L, Martinowich K^#^, **Totty MS**^#^"
+  journal: "Neurobiology of Disease"
+  year: 2026
+  doi: "10.1016/j.nbd.2026.107498"
+  categories: [Neural circuits]
+
+- number: 19
+  title: "Spatio-molecular gene expression reflects dorsal anterior cingulate cortex structure and function in the human brain"
+  author: "Shah K, **Totty MS**, Bach SV, Valentine M, Chandra A, Divecha HR, Miller R, Kwon SH, Ramnauth A, Tippani M, Tyagi S, Kleinman JE, Collado-Torres L, Han S, Hyde TM, Page SC, Maynard KR, Hicks SC, Martinowich K"
+  journal: "Cell Reports"
+  year: 2026
+  doi: "10.1016/j.celrep.2026.117500"
+  categories: [Human brain]
+
+- number: 18
+  title: "SpotSweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem"
+  author: "Chen X, **Totty MS**, Hicks SC"
+  journal: "F1000Research"
+  year: 2026
+  doi: "10.12688/f1000research.175162.1"
+  categories: [Methods & software]
+
+- number: 17
+  title: "A dorsal hippocampus–prodynorphinergic dorsolateral septum-to-lateral hypothalamus circuit mediates contextual gating of feeding"
+  author: "Goode TD, Bernstein M, **Totty MS**, Alipio JB, Vicidomini C, Pathak D, Besnard A, Chizari D, Sachdev N, Kritzer M, Chung A, Duan X, Macosko E, Hicks SC, Zweifel L, Sahay A"
+  journal: "Neuron"
+  year: 2026
+  doi: "10.1016/j.neuron.2026.01.025"
+  categories: [Neural circuits]
+
+- number: 16
+  title: "Hippocampal-prelimbic coupling during context-dependent extinction retrieval in rats"
+  author: "Mourão F, **Totty MS**, Tuna T, and Maren S"
+  journal: "Hippocampus"
+  year: 2026
+  doi: "10.1002/hipo.70058"
+  categories: [Fear & extinction]
+
+- number: 15
+  title: "Functional synaptic connectivity of engrafted spinal cord neurons with locomotor circuitry in the injured spinal cord"
+  author: "Tucker A, Eisdorfer JT, Thackray JK, Vo K, Thomas H, Tandon A, Moses J, Singletary B, Gillespie T, Smith A, Pauken A, Nadella S, Pitonak M, Letchuman S, Jang J, **Totty MS**, Jalufka FL, Aceves M, Adler AF, Maren S, Blackmon H, McCreedy DA, Abraira V, Dulin J"
+  journal: "Nature Communications"
+  year: 2025
+  doi: "10.1038/s41467-025-65395-7"
+  categories: [Neural circuits]
+
+- number: 14
+  title: "Patterns of neural activity in prelimbic cortex neurons correlate with attentional behavior in the rodent continuous performance test"
+  author: "Miranda-Barrientos J, Adiraju S*, Rehg J, **Totty MS**, Hallock H, Li Y, Carr G, and Martinowich K"
+  journal: "Translational Psychiatry"
+  year: 2025
+  doi: "10.1038/s41398-025-03707-7"
+  categories: [Neural circuits]
+
+- number: 13
+  title: "Transcriptomic diversity of amygdalar subdivisions across humans and nonhuman primates"
+  author: "**Totty MS**^#^, Cervera-Juanes R^#^, Bach SV^#^, Ben Ameur L, Valentine MR, Simons E, Romac MD, Trinh H, Henderson K, Del Rosario I, et al."
+  journal: "Science Advances"
+  year: 2025
+  doi: "10.1126/sciadv.adw1029"
+  categories: [Human brain]
+
+- number: 12
+  title: "Associative coding of aversive events in thalamic nucleus reuniens in rodents and humans"
+  author: "Tuna T^#^*, **Totty MS**^#^, Badarnee M^#^, Mourão F, Peters S*, Milad M, and Maren S"
+  journal: "Communications Biology"
+  year: 2025
+  doi: "10.1038/s42003-025-08580-0"
+  categories: [Fear & extinction]
+
+- number: 11
+  title: "SpotSweeper: spatially-aware quality control for spatial transcriptomics"
+  author: "**Totty MS**, Hicks S, and Guo B"
+  journal: "Nature Methods"
+  year: 2025
+  doi: "10.1038/s41592-025-02713-3"
+  categories: [Methods & software]
+
+- number: 10
+  title: "Integrating aversive memories in the basolateral amygdala"
+  author: "Liu J, **Totty MS**, Bayer H, Maren S"
+  journal: "Biological Psychiatry"
+  year: 2025
+  doi: "10.1016/j.biopsych.2025.03.019"
+  categories: [Fear & extinction]
+
+- number: 9
+  title: "Thalamic nucleus reuniens coordinates prefrontal-hippocampal synchrony to suppress extinguished fear"
+  author: "**Totty MS**, Tuna T, Ramanathan K, Jin J, Peters S*, and Maren S"
+  journal: "Nature Communications"
+  year: 2023
+  doi: "10.1038/s41467-023-42315-1"
+  categories: [Fear & extinction]
+
+- number: 8
+  title: "Neural oscillations in aversively motivated behavior"
+  author: "**Totty MS** and Maren S"
+  journal: "Frontiers in Behavioral Neuroscience"
+  year: 2022
+  doi: "10.3389/fnbeh.2022.936036"
+  categories: [Fear & extinction, Review]
+
+- number: 7
+  title: "Sex differences in the immediate extinction deficit and renewal of extinguished fear in rats"
+  author: "Binette AN^#^, **Totty MS**^#^, Maren S"
+  journal: "PLOS One"
+  year: 2022
+  doi: "10.1371/journal.pone.0264797"
+  categories: [Fear & extinction]
+
+- number: 6
+  title: "Convergent coding of recent and remote fear memory in the basolateral amygdala"
+  author: "Liu J^#^, **Totty MS**^#^, Melissari L, Bayer H, Maren S"
+  journal: "Biological Psychiatry"
+  year: 2022
+  doi: "10.1016/j.biopsych.2021.12.018"
+  categories: [Fear & extinction]
+
+- number: 5
+  title: "Behavioral and brain mechanisms mediating conditioned flight behavior in rats"
+  author: "**Totty MS**, Warren N, Huddleston I*, Ramanathan K, Ressler R, Oleksiak C, Maren S"
+  journal: "Scientific Reports"
+  year: 2021
+  doi: "10.1038/s41598-021-87559-3"
+  categories: [Fear & extinction]
+
+- number: 4
+  title: "Locus coeruleus norepinephrine drives stress-induced increases in basolateral amygdala firing and impairs extinction learning"
+  author: "Giustino TF, Ramanathan KR, **Totty MS**, Miles OM, and Maren S"
+  journal: "Journal of Neuroscience"
+  year: 2020
+  doi: "10.1523/JNEUROSCI.1092-19.2019"
+  categories: [Fear & extinction]
+
+- number: 3
+  title: "Event boundaries do not cause the immediate extinction deficit after Pavlovian fear conditioning in rats"
+  author: "**Totty MS**, Payne M, Maren S"
+  journal: "Scientific Reports"
+  year: 2019
+  doi: "10.1038/s41598-019-46010-4"
+  categories: [Fear & extinction]
+
+- number: 2
+  title: "Sleep-dependent oscillatory synchronization: a role in fear memory consolidation"
+  author: "**Totty MS**, Chesney LA, Geist PA, Datta S"
+  journal: "Frontiers in Neural Circuits"
+  year: 2017
+  doi: "10.3389/fncir.2017.00049"
+  categories: [Fear & extinction, Review]
+
+- number: 1
+  title: "Muscle activation and inertial motion data for non-invasive classification of activities of daily living"
+  author: "**Totty MS** and Wade E"
+  journal: "IEEE Transactions on Biomedical Engineering"
+  year: 2017
+  doi: "10.1109/TBME.2017.2738440"
+  categories: [Methods & software]

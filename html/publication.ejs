@@ -1,0 +1,25 @@
+<div class="listing-no-matching d-none">No matching publications.</div>
+<div class="pub-list list">
+<% for (const item of items) { %>
+<div class="pub-item" <%= metadataAttrs(item) %>>
+<div class="pub-number listing-number"><%= item.number %>.</div>
+<div class="pub-body">
+<div class="pub-title listing-title"><%- item.title %></div>
+<div class="pub-authors listing-author"><%- item.author %></div>
+<div class="pub-meta">
+<span class="pub-journal listing-journal"><%- item.journal %></span>
+<span class="pub-year listing-year"><%= item.year %></span>
+<% if (item.doi) { %><a class="pub-doi listing-doi" href="https://doi.org/<%= item.doi %>" target="_blank" rel="noopener">DOI: <%= item.doi %></a><% } %>
+</div>
+<% if (item.note) { %><div class="pub-note"><%- item.note %></div><% } %>
+<% if (item.categories) { %>
+<div class="listing-categories">
+<% for (const category of item.categories) { %>
+<div class="listing-category" onclick="if (window.quartoListingCategory) { window.quartoListingCategory('<%= category %>'); } return false;"><%= category %></div>
+<% } %>
+</div>
+<% } %>
+</div>
+</div>
+<% } %>
+</div>

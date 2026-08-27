@@ -1,0 +1,15 @@
+- number: 2
+  title: "Multiscale spatial transcriptomics resolves the cellular and molecular architecture of the human amygdala"
+  author: "**Totty MS**^#^, Bach S^#^, Valentine M, Tippani M, Maguire S, Miller R, Rosario I, Kleinman J, Maynard K, Hyde T, Page S, Hicks S, Martinowich K"
+  journal: "bioRxiv"
+  year: 2026
+  categories: [Human brain]
+
+- number: 1
+  title: "Orchestrating Spatial Transcriptomics Analysis with Bioconductor"
+  author: "Crowell HL^#^, Dong Y^#^, Billato I, Cai P, Emons M, Gunz S, Guo B, Li M, Mahmoud A, Manukyan A, Pagès H, Panwar P, Rao S, Sargeant C, Shepherd Kern L, Ramos M, Sun J, **Totty MS**, Carey V, Chen Y, Collado-Torres L, Ghazanfar S, Hansen KD, Martinowich K, Maynard KR, Patrick E, Righelli D, Risso D, Ritchie ME, Tiberi S, Waldron L, Gottardo R, Robinson MD^#^, Hicks SC^#^, Weber LM^#^"
+  journal: "bioRxiv"
+  year: 2025
+  doi: "10.1101/2025.11.20.688607"
+  note: "Under revision at *Nature Methods*."
+  categories: [Methods & software]

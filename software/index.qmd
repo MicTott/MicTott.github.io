@@ -1,32 +1,86 @@
 ---
-title: "Software"
-listing:
-  contents:
-    - title: "SpotSweeper"
-      description: "Spatially-aware quality control for spatial transcriptomics."
-      path: https://www.bioconductor.org/packages/release/bioc/html/SpotSweeper.html
-      image: img/spotsweeper_hexsticker.png
-      categories:
-        - Bioconductor
-        - R
-    - title: FrozenPy
-      description: "A Python package for quantifying freezing behavior in rodents."
-      path: https://github.com/MicTott/FrozenPy
-      image: img/FrozenPy.png
-      categories:
-        - Python
-    - title: FiberFlow
-      description: "A Streamlit app for analyzing fiber photometry data."
-      path: https://github.com/MicTott/FiberFlow
-      categories:
-        - Python
-        - Streamlit
-        
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  image-height: 3.5in
-page-layout: full
-title-block-banner: true
+title: "Software & Data"
 ---
+
+Open data resources and software tools from my work. Everything here is public — the
+interactive browsers need nothing but a web browser.
+
+## Data resources
+
+::: {.resource}
+### Human amygdala spatial transcriptomic atlas
+
+Spatially-resolved transcriptomics of the postmortem human amygdala across three 10x Genomics
+platforms — Visium (n = 7 donors), Xenium (n = 4), and Visium HD (n = 5 capture areas). The
+interactive browsers are powered by [Vitessce](https://vitessce.io/).
+
+[All browsers](https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/index.html) ·
+[Visium](https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/visium.json) ·
+[Xenium](https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/xenium.json) ·
+[Visium HD](https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/visium_hd.json) ·
+[One donor, all three platforms](https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/all_platforms.json)
+
+[Code](https://github.com/LieberInstitute/spatialAmygdala) ·
+Raw data:
+[GSE342709 (Visium)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342709),
+[GSE342289 (Xenium)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342289),
+[GSE342738 (Visium HD)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342738)
+:::
+
+::: {.resource}
+### Cross-species basolateral amygdala snRNA-seq
+
+Single-nucleus RNA sequencing of amygdala subregions (LA, BA, aBA, CeA) in human (n = 5),
+rhesus macaque (n = 5), and olive baboon (n = 2). Split into one
+[iSEE](https://bioconductor.org/packages/release/bioc/html/iSEE.html) app per species so
+each stays responsive.
+
+[Human](https://libd.shinyapps.io/BLA_Human/) ·
+[Macaque](https://libd.shinyapps.io/BLA_Macaque/) ·
+[Baboon](https://libd.shinyapps.io/BLA_Baboon/)
+
+[Code](https://github.com/LieberInstitute/BLA_crossSpecies) ·
+[Processed data (Globus)](https://research.libd.org/globus/jhpce_BLA_crossSpecies/index.html) ·
+[Raw data: GSE281366](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281366) ·
+[Paper](https://www.science.org/doi/10.1126/sciadv.adw1029)
+:::
+
+## Software
+
+::: {.resource}
+### SpotSweeper
+
+Spatially-aware quality control for spatial transcriptomics. Detects local outlier spots and
+regional artifacts by comparing each spot to its spatial neighbors, rather than to the sample
+as a whole.
+
+[Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/SpotSweeper.html) ·
+[Code](https://github.com/MicTott/SpotSweeper) ·
+[Paper](https://www.nature.com/articles/s41592-025-02713-3)
+:::
+
+::: {.resource}
+### SpotSweeper-py
+
+The SpotSweeper quality control metrics for the Python/scverse ecosystem.
+
+[PyPI](https://pypi.org/project/spotsweeper/) ·
+[Code](https://github.com/danielchen05/spotsweeper_py) ·
+[Paper](https://doi.org/10.12688/f1000research.175162.1)
+:::
+
+::: {.resource}
+### FrozenPy
+
+A Python package for quantifying freezing behavior in rodents from raw locomotor traces.
+
+[Code](https://github.com/MicTott/FrozenPy)
+:::
+
+::: {.resource}
+### FiberFlow
+
+A Streamlit app for analyzing fiber photometry data.
+
+[Code](https://github.com/MicTott/FiberFlow)
+:::
