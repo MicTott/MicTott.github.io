@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Research Scientist at the Lieber Institute for Brain Development, working at the intersection of molecular, computational, and systems neuroscience.">
 
-<title>Michael S. Totty - Software</title>
+<title>Michael S. Totty - Software &amp; Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,17 +30,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<link href="../img/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,72 +68,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-description","listing-image","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
+<meta property="og:title" content="Michael S. Totty - Software &amp; Data">
+<meta property="og:description" content="Research Scientist at the Lieber Institute for Brain Development, working at the intersection of molecular, computational, and systems neuroscience.">
+<meta property="og:image" content="https://MicTott.github.io/software/img/michael_totty.png">
+<meta property="og:site_name" content="Michael S. Totty">
+<meta name="twitter:title" content="Michael S. Totty - Software &amp; Data">
+<meta name="twitter:description" content="Research Scientist at the Lieber Institute for Brain Development, working at the intersection of molecular, computational, and systems neuroscience.">
+<meta name="twitter:image" content="https://MicTott.github.io/software/img/michael_totty.png">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -155,155 +107,90 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../software/index.html" aria-current="page"> 
-<span class="menu-text">Software</span></a>
+<span class="menu-text">Software &amp; Data</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;hl=en&amp;user=aQEL5ecAAAAJ"> <i class="bi bi-google" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/MicTott"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/MicTott"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/mictott/"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:mtotty2@jh.edu"> <i class="bi bi-envelope" role="img" aria-label="email">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Software</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Bioconductor">Bioconductor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Streamlit">Streamlit <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Software &amp; Data</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<p>Open data resources and software tools from my work. Everything here is public — the interactive browsers need nothing but a web browser.</p>
+<section id="data-resources" class="level2">
+<h2 class="anchored" data-anchor-id="data-resources">Data resources</h2>
+<section id="human-amygdala-spatial-transcriptomic-atlas" class="level3 resource">
+<h3 class="anchored" data-anchor-id="human-amygdala-spatial-transcriptomic-atlas">Human amygdala spatial transcriptomic atlas</h3>
+<p>Spatially-resolved transcriptomics of the postmortem human amygdala across three 10x Genomics platforms — Visium (n = 7 donors), Xenium (n = 4), and Visium HD (n = 5 capture areas). The interactive browsers are powered by <a href="https://vitessce.io/">Vitessce</a>.</p>
+<p><a href="https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/index.html">All browsers</a> · <a href="https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/visium.json">Visium</a> · <a href="https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/xenium.json">Xenium</a> · <a href="https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/visium_hd.json">Visium HD</a> · <a href="https://vitessce.io/#?url=https://totty-amygdala-vitessce.s3.amazonaws.com/amygdala/configs/all_platforms.json">One donor, all three platforms</a></p>
+<p><a href="https://github.com/LieberInstitute/spatialAmygdala">Code</a> · Raw data: <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342709">GSE342709 (Visium)</a>, <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342289">GSE342289 (Xenium)</a>, <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE342738">GSE342738 (Visium HD)</a></p>
+</section>
+<section id="cross-species-basolateral-amygdala-snrna-seq" class="level3 resource">
+<h3 class="anchored" data-anchor-id="cross-species-basolateral-amygdala-snrna-seq">Cross-species basolateral amygdala snRNA-seq</h3>
+<p>Single-nucleus RNA sequencing of amygdala subregions (LA, BA, aBA, CeA) in human (n = 5), rhesus macaque (n = 5), and olive baboon (n = 2). Split into one <a href="https://bioconductor.org/packages/release/bioc/html/iSEE.html">iSEE</a> app per species so each stays responsive.</p>
+<p><a href="https://libd.shinyapps.io/BLA_Human/">Human</a> · <a href="https://libd.shinyapps.io/BLA_Macaque/">Macaque</a> · <a href="https://libd.shinyapps.io/BLA_Baboon/">Baboon</a></p>
+<p><a href="https://github.com/LieberInstitute/BLA_crossSpecies">Code</a> · <a href="https://research.libd.org/globus/jhpce_BLA_crossSpecies/index.html">Processed data (Globus)</a> · <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281366">Raw data: GSE281366</a> · <a href="https://www.science.org/doi/10.1126/sciadv.adw1029">Paper</a></p>
+</section>
+</section>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<section id="spotsweeper" class="level3 resource">
+<h3 class="anchored" data-anchor-id="spotsweeper">SpotSweeper</h3>
+<p>Spatially-aware quality control for spatial transcriptomics. Detects local outlier spots and regional artifacts by comparing each spot to its spatial neighbors, rather than to the sample as a whole.</p>
+<p><a href="https://www.bioconductor.org/packages/release/bioc/html/SpotSweeper.html">Bioconductor</a> · <a href="https://github.com/MicTott/SpotSweeper">Code</a> · <a href="https://www.nature.com/articles/s41592-025-02713-3">Paper</a></p>
+</section>
+<section id="spotsweeper-py" class="level3 resource">
+<h3 class="anchored" data-anchor-id="spotsweeper-py">SpotSweeper-py</h3>
+<p>The SpotSweeper quality control metrics for the Python/scverse ecosystem.</p>
+<p><a href="https://pypi.org/project/spotsweeper/">PyPI</a> · <a href="https://github.com/danielchen05/spotsweeper_py">Code</a> · <a href="https://doi.org/10.12688/f1000research.175162.1">Paper</a></p>
+</section>
+<section id="frozenpy" class="level3 resource">
+<h3 class="anchored" data-anchor-id="frozenpy">FrozenPy</h3>
+<p>A Python package for quantifying freezing behavior in rodents from raw locomotor traces.</p>
+<p><a href="https://github.com/MicTott/FrozenPy">Code</a></p>
+</section>
+<section id="fiberflow" class="level3 resource">
+<h3 class="anchored" data-anchor-id="fiberflow">FiberFlow</h3>
+<p>A Streamlit app for analyzing fiber photometry data.</p>
+<p><a href="https://github.com/MicTott/FiberFlow">Code</a></p>
+</section>
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Bioconductor,R">
-<a href="https://www.bioconductor.org/packages/release/bioc/html/SpotSweeper.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="img/spotsweeper_hexsticker.png" class="thumbnail-image card-img" style="height: 3.5in;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SpotSweeper
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Bioconductor'); return false;">
-Bioconductor
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="card-text listing-description">
-Spatially-aware quality control for spatial transcriptomics.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Python">
-<a href="https://github.com/MicTott/FrozenPy" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="img/FrozenPy.png" class="thumbnail-image card-img" style="height: 3.5in;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-FrozenPy
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-</div>
-<div class="card-text listing-description">
-A Python package for quantifying freezing behavior in rodents.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Python,Streamlit">
-<a href="https://github.com/MicTott/FiberFlow" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-FiberFlow
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Streamlit'); return false;">
-Streamlit
-</div>
-</div>
-<div class="card-text listing-description">
-A Streamlit app for analyzing fiber photometry data.
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -324,6 +211,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -717,7 +748,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block">© 2025 Michael S. Totty CC BY-SA 4.0</span></p>
+<p><span class="faux-block">© 2026 Michael S. Totty CC BY-SA 4.0</span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
