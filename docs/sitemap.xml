@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://MicTott.github.io/cv/index.html</loc>
-    <lastmod>2026-08-26T14:23:55.821Z</lastmod>
-  </url>
-  <url>
-    <loc>https://MicTott.github.io/index.html</loc>
-    <lastmod>2026-08-26T14:21:36.988Z</lastmod>
-  </url>
-  <url>
     <loc>https://MicTott.github.io/publications/index.html</loc>
-    <lastmod>2026-08-26T14:21:36.988Z</lastmod>
+    <lastmod>2026-08-27T14:34:22.178Z</lastmod>
   </url>
   <url>
     <loc>https://MicTott.github.io/projects/index.html</loc>
-    <lastmod>2026-08-26T14:16:25.927Z</lastmod>
+    <lastmod>2026-08-27T14:34:22.165Z</lastmod>
   </url>
   <url>
     <loc>https://MicTott.github.io/software/index.html</loc>
-    <lastmod>2026-08-26T14:35:29.812Z</lastmod>
+    <lastmod>2026-08-27T14:34:22.179Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MicTott.github.io/index.html</loc>
+    <lastmod>2026-08-27T14:34:22.136Z</lastmod>
+  </url>
+  <url>
+    <loc>https://MicTott.github.io/cv/index.html</loc>
+    <lastmod>2026-08-27T14:34:22.115Z</lastmod>
   </url>
 </urlset>
